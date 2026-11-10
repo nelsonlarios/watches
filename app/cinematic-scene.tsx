@@ -8,6 +8,7 @@ import { FontLoader } from "three/addons/loaders/FontLoader.js";
 import { makeWatch, annulus, cog, disk, texture, TAU } from "./watch-model";
 import { SAROS_MODEL } from "./mechanics/calendar-kinematics";
 import { calendarFrame } from "./mechanics/cinematic-timeline";
+import { ASSEMBLY } from "./mechanics/assembly-timeline";
 export type CinemaState = {
   act: number;
   phase: number;
@@ -41,11 +42,6 @@ function makeCalendar() {
     color: 0x0d1710,
     metalness: 0.8,
     roughness: 0.3,
-  });
-  const porcelain = new T.MeshStandardMaterial({
-    color: 0xdedbc9,
-    metalness: 0.25,
-    roughness: 0.32,
   });
   const carrier = new T.Group();
   root.add(carrier);
@@ -420,6 +416,7 @@ export default function CinematicScene({
         lookY = mobile ? 0.35 : 0;
       if (watch) {
         const w = watch;
+        w.assembly.reset();
         w.root.visible = !macro && (!historyActive || historyMode === "watch");
         let explode =
           s.act === ACT.energy
@@ -427,7 +424,7 @@ export default function CinematicScene({
               ? 0.68 * ease(0.05, 0.45, p)
               : s.separation
             : s.act === ACT.assembly
-              ? 0.9 * (1 - ease(0.08, 0.75, p))
+              ? 0
               : s.separation;
         if (s.act === ACT.calendar) {
           explode =
@@ -567,7 +564,7 @@ export default function CinematicScene({
               ? (-(4 + net) * TAU) / 12
               : (-(mt < 32.5 ? 4 : 5) * TAU) / 12;
           w.setDate(mt < 32.5 ? 30 : 1);
-          let haloMonth =
+          const haloMonth =
             mt >= 3.324 && mt < 5.2
               ? 1
               : mt < 6.8 && mt >= 5.2
@@ -604,6 +601,36 @@ export default function CinematicScene({
           cameraX = mobile ? 1 : 2.3;
           lookX = (mobile ? 0 : 2) + 1.05 * close;
           lookY = 0.2;
+        }
+        if (s.act === ACT.assembly) {
+          const t = s.time,
+            closure = ease(11.5, ASSEMBLY.count, t),
+            reveal = ease(ASSEMBLY.count - 0.8, ASSEMBLY.count + 2.4, t);
+          // Parts use absolute audio time: replay, pause and backward seeks all
+          // produce the same arrangement. Layer explosion has no second owner.
+          Object.entries(w.layers).forEach(([name, g]) =>
+            g.position.set(0, 0, layerZ[name]),
+          );
+          w.root.position.set(
+            mobile ? 0 : 2.2 * reveal,
+            mobile ? mix(0.5, 2.25, closure) : 0,
+            0,
+          );
+          w.root.rotation.set(
+            mix(0.25, 0.08, closure) + dragX,
+            mix(-0.48, -0.19, closure) + dragY,
+            mix(-0.12, -0.19, closure),
+          );
+          w.bezel.rotation.z = 0;
+          w.energy.visible = w.rotor.visible = t < 18;
+          w.monthTrain.visible = t < 17.6;
+          w.dateSector.rotation.z = 0;
+          w.monthIdler.rotation.z = 0;
+          w.assembly.apply(t);
+          cameraZ = mobile ? mix(42, 27.5, closure) : mix(27, 16.8, closure);
+          cameraX = 0;
+          lookX = mobile ? 0 : -0.5 * reveal;
+          lookY = mobile ? 0.35 : 0;
         }
       }
       cal.root.visible = macro;

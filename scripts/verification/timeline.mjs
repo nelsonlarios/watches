@@ -128,5 +128,5 @@ for (const cue of score.cues) {
 }
 close(musicalTotal, film.totalDuration);
 console.log(
-  "PASS: four complete orchestral segments conform to all eight voice acts and the244.680s film.",
+  `PASS: four complete orchestral segments conform to all eight voice acts and the ${film.totalDuration}s film.`,
 );

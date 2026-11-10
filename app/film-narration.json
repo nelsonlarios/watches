@@ -9,7 +9,7 @@
     "rate": "-12%",
     "pitch": "-8Hz"
   },
-  "totalDuration": 244.68,
+  "totalDuration": 263.4,
   "chapters": [
     {
       "id": 0,
@@ -422,34 +422,57 @@
     {
       "id": 7,
       "title": "A universe, assembled",
-      "text": "And now, everything finds its place. Wheels, bridges, hands, and light. A universe of tiny decisions becomes one extraordinary watch. The Sky-Dweller. Ready for wherever your story takes you next.",
-      "file": "/audio/chapter-5.mp3",
-      "duration": 17.28,
+      "text": "Every wheel. Every spring. Every bridge and screw. Each has a place in this little universe. And now... everything comes together. Three hundred and eighty components, united in calibre nine thousand and one. One extraordinary watch. A world on your wrist.",
+      "file": "/audio/assembly-finale/narration.mp3",
+      "duration": 36,
       "cues": [
         {
-          "start": 0.1,
-          "end": 3.274,
-          "text": "And now, everything finds its place."
+          "start": 0.25,
+          "end": 1.627,
+          "text": "Every wheel.",
+          "passage": "components"
         },
         {
-          "start": 3.224,
-          "end": 7.116,
-          "text": "Wheels, bridges, hands, and light."
+          "start": 1.627,
+          "end": 3.147,
+          "text": "Every spring.",
+          "passage": "components"
         },
         {
-          "start": 7.116,
-          "end": 12.06,
-          "text": "A universe of tiny decisions becomes one extraordinary watch."
+          "start": 3.147,
+          "end": 5.278,
+          "text": "Every bridge and screw.",
+          "passage": "components"
         },
         {
-          "start": 12.06,
-          "end": 13.679,
-          "text": "The Sky-Dweller."
+          "start": 5.278,
+          "end": 8.516,
+          "text": "Each has a place in this little universe.",
+          "passage": "components"
         },
         {
-          "start": 13.679,
-          "end": 17.23,
-          "text": "Ready for wherever your story takes you next."
+          "start": 11.5,
+          "end": 14.348,
+          "text": "And now... everything comes together.",
+          "passage": "convergence"
+        },
+        {
+          "start": 20,
+          "end": 25.603,
+          "text": "Three hundred and eighty components, united in calibre nine thousand and one.",
+          "passage": "movement-count"
+        },
+        {
+          "start": 29,
+          "end": 31.258,
+          "text": "One extraordinary watch.",
+          "passage": "beauty"
+        },
+        {
+          "start": 31.258,
+          "end": 33.303,
+          "text": "A world on your wrist.",
+          "passage": "beauty"
         }
       ]
     }

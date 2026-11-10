@@ -2,6 +2,10 @@ import * as T from "three";
 import { RoundedBoxGeometry } from "three/addons/geometries/RoundedBoxGeometry.js";
 import { TextGeometry } from "three/addons/geometries/TextGeometry.js";
 import type { Font } from "three/addons/loaders/FontLoader.js";
+import {
+  makeAssemblyController,
+  type ModelledPart,
+} from "./assembly-controller";
 export const TAU = Math.PI * 2;
 export function disk(radius: number, depth: number, mat: T.Material) {
   const m = new T.Mesh(new T.CylinderGeometry(radius, radius, depth, 128), mat);
@@ -166,11 +170,6 @@ export function makeWatch(font: Font) {
   brushed.roughnessMap = brushing;
   brushed.bumpMap = brushing;
   brushed.bumpScale = 0.0012;
-  const black = new T.MeshStandardMaterial({
-    color: 0x050706,
-    roughness: 0.35,
-    metalness: 0.1,
-  });
   const ivory = new T.MeshStandardMaterial({
     color: 0xe7e0cb,
     roughness: 0.54,
@@ -209,6 +208,7 @@ export function makeWatch(font: Font) {
   const backrim = annulus(1.65, 1.87, 0.06, polished);
   backrim.position.z = -0.72;
   body.add(backrim);
+  const lugs: T.Object3D[] = [];
   for (const sx of [-1, 1])
     for (const sy of [-1, 1]) {
       const s = new T.Shape();
@@ -237,6 +237,7 @@ export function makeWatch(font: Font) {
       );
       lug.position.z = -0.3;
       body.add(lug);
+      lugs.push(lug);
     }
   const bracelet = new T.Group();
   body.add(bracelet);
@@ -360,7 +361,8 @@ export function makeWatch(font: Font) {
       dialVertices.getX(i) / 3.54 + 0.5,
       dialVertices.getY(i) / 3.54 + 0.5,
     );
-  dial.add(new T.Mesh(dialGeometry, dialMat));
+  const plate = new T.Mesh(dialGeometry, dialMat);
+  dial.add(plate);
   const emblem = crownEmblem(polished);
   emblem.position.set(0, 1.24, 0.025);
   emblem.scale.setScalar(0.92);
@@ -379,6 +381,7 @@ export function makeWatch(font: Font) {
     "X",
     "XI",
   ];
+  const numeralParts: T.Object3D[] = [];
   for (let h = 1; h < 12; h++) {
     if (h === 3) continue;
     const numeral = romans[h];
@@ -400,6 +403,7 @@ export function makeWatch(font: Font) {
     m.position.set(Math.sin(a) * 1.39, Math.cos(a) * 1.39, 0.015);
     m.rotation.z = -a;
     dial.add(m);
+    numeralParts.push(m);
   }
   const monthRing = layer("monthRing", 0.22);
   monthRing.add(annulus(1.49, 1.77, 0.035, ivory));
@@ -765,6 +769,65 @@ export function makeWatch(font: Font) {
   ax.position.z = 0.09;
   balance.add(ax);
   energy.visible = false;
+  // Explicit physical groups: flutes, knurling, teeth, printing and hand
+  // inlays stay attached to their host. Mesh count is not a component count.
+  const modelledParts: ModelledPart[] = [];
+  const part = (
+    object: T.Object3D,
+    family: ModelledPart["family"],
+    id: string,
+  ) => {
+    object.name = `assembly:${id}`;
+    modelledParts.push({ object, family, id });
+  };
+  const bundle = (
+    parent: T.Object3D,
+    objects: T.Object3D[],
+    family: ModelledPart["family"],
+    id: string,
+  ) => {
+    const group = new T.Group();
+    parent.add(group);
+    root.updateMatrixWorld(true);
+    objects.forEach((o) => group.attach(o));
+    part(group, family, id);
+    return group;
+  };
+  bundle(
+    body,
+    [shell, ...lugs, ...rehaut.children],
+    "case",
+    "case-and-integral-lugs",
+  );
+  bundle(body, [back, backrim], "back", "case-back");
+  bracelet.children.forEach((link, i) =>
+    part(link, "bracelet", `bracelet-${i}`),
+  );
+  part(crown, "crown", "winding-crown");
+  // The fixed markings and date readout belong to the dial representation.
+  // Only the off-centre 24-hour disc is animated as an independent disc.
+  bundle(
+    dial,
+    [plate, refCenter.children[0], innerFace, triangleMesh, dateFace, dateRim],
+    "dial",
+    "dial-and-fixed-markings",
+  );
+  part(emblem, "index", "applied-crown");
+  numeralParts.forEach((m, i) => part(m, "index", `applied-numeral-${i}`));
+  part(referenceDisc, "reference", "24-hour-disc");
+  bundle(monthRing, [...monthRing.children], "month", "month-ring");
+  part(dateSector, "movement", "illustrative-date-sector");
+  part(monthIdler, "movement", "illustrative-month-idler");
+  bundle(bezel, [...bezel.children], "bezel", "one-piece-fluted-bezel");
+  [hour, minute, second, pin].forEach((h, i) => part(h, "hand", `hand-${i}`));
+  part(crystal.children[0], "crystal", "sapphire-crystal");
+  part(lens, "crystal", "cyclops-lens");
+  bundle(rotor, [...rotor.children], "movement", "rotor");
+  barrel.children.forEach((o, i) => part(o, "movement", `barrel-${i}`));
+  bundle(balance, balance.children.slice(0, 4), "movement", "balance-wheel");
+  part(balance.children[0], "movement", "hairspring");
+  part(ax, "movement", "balance-staff");
+  const assembly = makeAssemblyController(modelledParts);
   setDate(30);
   return {
     root,
@@ -792,5 +855,6 @@ export function makeWatch(font: Font) {
     polished,
     brushed,
     gold,
+    assembly,
   };
 }

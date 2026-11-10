@@ -25,7 +25,7 @@ export const sources = [
   {
     title: "Rolex · Original 2012 launch dossier",
     detail:
-      "Reference 326939, calibre 9001, four-finger production Saros, original photography (pp. 6, 7, 10–13).",
+      "Reference 326939, calibre 9001: 380 movement components (p. 10). Four-finger production Saros and original photography (pp. 6, 7, 10–13).",
     url: "https://www.thewatch.co.il/image/users/190146/ftp/my_files/ROLEX/Sky-Dweller_EN.pdf",
   },
   {

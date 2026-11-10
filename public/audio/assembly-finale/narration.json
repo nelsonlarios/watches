@@ -1,0 +1,112 @@
+{
+  "title": "A universe, assembled",
+  "text": "Every wheel. Every spring. Every bridge and screw. Each has a place in this little universe. And now... everything comes together. Three hundred and eighty components, united in calibre nine thousand and one. One extraordinary watch. A world on your wrist.",
+  "file": "/audio/assembly-finale/narration.mp3",
+  "duration": 36.0,
+  "decodedDuration": 36.0,
+  "encodedDuration": 36.048,
+  "aiGenerated": true,
+  "voice": {
+    "id": "en-GB-SoniaNeural",
+    "rate": "-12%",
+    "pitch": "-8Hz",
+    "language": "en-GB"
+  },
+  "cues": [
+    {
+      "start": 0.25,
+      "end": 1.627,
+      "text": "Every wheel.",
+      "passage": "components"
+    },
+    {
+      "start": 1.627,
+      "end": 3.147,
+      "text": "Every spring.",
+      "passage": "components"
+    },
+    {
+      "start": 3.147,
+      "end": 5.278,
+      "text": "Every bridge and screw.",
+      "passage": "components"
+    },
+    {
+      "start": 5.278,
+      "end": 8.516,
+      "text": "Each has a place in this little universe.",
+      "passage": "components"
+    },
+    {
+      "start": 11.5,
+      "end": 14.348,
+      "text": "And now... everything comes together.",
+      "passage": "convergence"
+    },
+    {
+      "start": 20.0,
+      "end": 25.603,
+      "text": "Three hundred and eighty components, united in calibre nine thousand and one.",
+      "passage": "movement-count"
+    },
+    {
+      "start": 29.0,
+      "end": 31.258,
+      "text": "One extraordinary watch.",
+      "passage": "beauty"
+    },
+    {
+      "start": 31.258,
+      "end": 33.303,
+      "text": "A world on your wrist.",
+      "passage": "beauty"
+    }
+  ],
+  "passages": [
+    {
+      "id": "components",
+      "text": "Every wheel. Every spring. Every bridge and screw. Each has a place in this little universe.",
+      "start": 0.25,
+      "end": 8.516,
+      "sourceFile": "/audio/assembly-finale/fragments/00-components.mp3",
+      "sourceDuration": 8.424
+    },
+    {
+      "id": "convergence",
+      "text": "And now... everything comes together.",
+      "start": 11.5,
+      "end": 14.348,
+      "sourceFile": "/audio/assembly-finale/fragments/01-convergence.mp3",
+      "sourceDuration": 2.952
+    },
+    {
+      "id": "movement-count",
+      "text": "Three hundred and eighty components, united in calibre nine thousand and one.",
+      "start": 20.0,
+      "end": 25.603,
+      "sourceFile": "/audio/assembly-finale/fragments/02-movement-count.mp3",
+      "sourceDuration": 5.712
+    },
+    {
+      "id": "beauty",
+      "text": "One extraordinary watch. A world on your wrist.",
+      "start": 29.0,
+      "end": 33.303,
+      "sourceFile": "/audio/assembly-finale/fragments/03-beauty.mp3",
+      "sourceDuration": 4.464
+    }
+  ],
+  "markers": {
+    "assemblyStart": 0,
+    "convergenceStart": 3,
+    "countReveal": 20,
+    "beautyStart": 29
+  },
+  "subject": {
+    "calibre": "9001",
+    "movementComponentCount": 380,
+    "countAppliesTo": "movement"
+  },
+  "rms": 0.087679,
+  "peak": 0.537062
+}

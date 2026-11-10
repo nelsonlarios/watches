@@ -6,7 +6,7 @@ The active film uses original procedural3D assets throughout. Its baseline remai
 
 ## What changed
 
-- Eight-act film,244.680seconds, built around desire and a clear causal explanation. The research is available in a secondary panel.
+- Eight-act film,263.400seconds, built around desire and a clear causal explanation. The research is available in a secondary panel.
 - Original3D exterior, separately moving bezel, dial, hands, crystal, bracelet, reference disc and date/month indications.
 - Metallic studio reflections, curved link faces, soft shadows, restrained drifting light and particles.
 - Calendar lesson: show April30→May1; rewind; reveal the31-position ring; introduce the normal and extra fingers; slow the two advances; reveal the rolling satellite; carry the same assembly to May30; show the gap and one ordinary advance.
@@ -34,4 +34,4 @@ Narration files are locally served; no speech keys are stored. Sonia is an AI-ge
 
 The active film adds the researched historical prologue and a40.032-second month-window chapter. The same dial now has12actual cutouts and rises over its own annular month ring. A dark sector shows April at4and May at5. The separate monthly-travel shot demonstrates net30° rotation without claiming the production staging schedule. The illustrative month drive uses a coherent60/12/84 tooth layout, not verified production counts.
 
-Four original sampled orchestral cues total244.680seconds. Narration and music share a master time; music continues across the short acts with offsets, ducks beneath speech, and uses deliberate silence for the May gap. The old oscillator drone is removed. History sources and timing manifests are included in the source.
+Four original sampled orchestral cues total263.400seconds. Narration and music share a master time; music continues across the short acts with offsets, ducks beneath speech, and uses deliberate silence for the May gap. The old oscillator drone is removed. History sources and timing manifests are included in the source.

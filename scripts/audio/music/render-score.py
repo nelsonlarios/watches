@@ -25,8 +25,8 @@ SWIFT=WORK/'render-orchestra'
 SAMPLE_RATE=44100
 NAMES=['heritage','calendar','voyage','assembly']
 TARGET_RMS=dict(heritage=.105,calendar=.082,voyage=.092,assembly=.120)
-VOICE_GAIN=dict(heritage=.40,calendar=.32,voyage=.32,assembly=.25)
-VOICE_LUFS=dict(heritage=-19.02,calendar=-19.25,voyage=-19.0,assembly=-18.5)
+VOICE_GAIN=dict(heritage=.40,calendar=.32,voyage=.32,assembly=.285)
+VOICE_LUFS=dict(heritage=-19.02,calendar=-19.25,voyage=-19.0,assembly=-18.92)
 SEGMENTS={
     'heritage':[
         dict(act='history',offset=0,duration=61.176),
@@ -39,7 +39,7 @@ SEGMENTS={
         dict(act='travel',offset=40.032,duration=15.480),
         dict(act='ring-command',offset=55.512,duration=17.688),
     ],
-    'assembly':[dict(act='assembly',offset=0,duration=17.280)],
+    'assembly':[dict(act='assembly',offset=0,duration=36.000)],
 }
 
 
@@ -122,7 +122,7 @@ def main():
         # Publish measured cue availability as each asset finishes.
         manifest=dict(title='The Traveller’s Little Universe — original orchestral film score',
                       generatedAt='2026-11-10',originalComposition=True,budgetSpent=0,sampleRate=SAMPLE_RATE,
-                      format='Stereo MP3, 256kbps',totalTimelineDuration=244.680,
+                      format='Stereo MP3, 256kbps',totalTimelineDuration=263.400,
                       renderer='Apple AVAudioEngine offline + AVAudioUnitSampler',
                       sourceBanksRedistributed=False,cues=cues,
                       sourceCredits=[
@@ -132,8 +132,8 @@ def main():
                                archiveReadme='Original archive README declares release to the public domain on 25 December 2001; MuseScore describes FluidR3 as MIT licensed.'),
                       ])
         (OUT/'score-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
-    assert abs(sum(c['duration'] for c in cues)-244.68)<.00001
-    print('Complete: four original orchestral cues; 244.680s film timeline.',flush=True)
+    assert abs(sum(c['duration'] for c in cues)-263.4)<.00001
+    print('Complete: four original orchestral cues; 263.400s film timeline.',flush=True)
 
 
 if __name__=='__main__':main()

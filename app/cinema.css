@@ -42,6 +42,136 @@
   height: 100%;
   display: block;
 }
+.cinema-assembly-heading {
+  position: absolute;
+  top: 36%;
+  left: 7%;
+  width: 25%;
+  text-align: left;
+  pointer-events: none;
+  animation: assembly-emerge 1.5s ease-out both;
+}
+.cinema-assembly-heading span {
+  font-size: 7px;
+  letter-spacing: 0.32em;
+  color: #c0aa7b;
+}
+.cinema-assembly-heading p {
+  font:
+    italic 34px "Cormorant Garamond",
+    Georgia,
+    serif;
+  margin: 10px 0;
+  color: #dfd8c6;
+}
+.cinema-assembly-count {
+  position: absolute;
+  left: 7%;
+  top: 45%;
+  transform: translateY(-40%);
+  width: 34%;
+  animation: assembly-emerge 1.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.cinema .cinema-assembly-count h1 {
+  font-size: clamp(130px, 17vw, 252px);
+  letter-spacing: -0.07em;
+  margin: 0 0 13px -8px;
+  line-height: 0.95;
+  background: linear-gradient(115deg, #fbf4db 15%, #d9bf86 54%, #a58243);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cinema-assembly-unit {
+  color: #c5c7ad;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+}
+.cinema-assembly-beauty {
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 1.5s,
+    transform 1.5s;
+  margin-top: 29px;
+}
+.cinema-assembly-beauty.visible {
+  opacity: 1;
+  transform: none;
+}
+.cinema-assembly-beauty > p {
+  font:
+    italic 30px "Cormorant Garamond",
+    Georgia,
+    serif;
+  color: #d8c7a2;
+  margin: 0 0 20px;
+}
+@keyframes assembly-emerge {
+  from {
+    opacity: 0;
+    filter: blur(8px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+@media (max-width: 760px) {
+  .cinema-assembly-heading {
+    top: 99px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .cinema-assembly-heading span {
+    font-size: 5px;
+  }
+  .cinema-assembly-heading p {
+    font-size: 25px;
+  }
+  .cinema-assembly-count {
+    left: 5%;
+    width: 90%;
+    top: auto;
+    bottom: 177px;
+    transform: none;
+    text-align: center;
+  }
+  .cinema .cinema-assembly-count h1 {
+    font-size: 104px;
+    margin: -4px 0 4px;
+  }
+  .cinema-assembly-count .cinema-eyebrow {
+    justify-content: center;
+    font-size: 5px;
+    margin: 0;
+  }
+  .cinema-assembly-unit {
+    font-size: 6px;
+    margin: 0;
+  }
+  .cinema-assembly-beauty {
+    margin-top: 12px;
+  }
+  .cinema-assembly-beauty > p {
+    font-size: 21px;
+    margin-bottom: 8px;
+  }
+  .cinema-assembly-beauty .cinema-discover {
+    margin: auto;
+    font-size: 7px;
+    padding-top: 6px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cinema-assembly-count,
+  .cinema-assembly-heading {
+    animation: none;
+  }
+  .cinema-assembly-beauty {
+    transition: none;
+  }
+}
 .cinema-vignette {
   position: absolute;
   inset: 0;

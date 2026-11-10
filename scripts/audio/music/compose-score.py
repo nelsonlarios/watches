@@ -223,28 +223,44 @@ def voyage():
     c.save()
 
 
-def assembly():
-    c=Cue('assembly','A universe, assembled',17.280,
-          [dict(time=0,label='Reassembly begins: rising string figures'),dict(time=6.7,label='Brass and timpani crescendo'),dict(time=9,label='Full orchestral arrival'),dict(time=12.8,label='Cadential lift'),dict(time=14.75,label='Final major-key resolution'),dict(time=16.7,label='Natural final decay')],
-          [[0,.26],[1,.48],[4,.63],[6.7,.78],[9,1],[12,.95],[14.75,.9],[15.8,.68],[16.7,.26],[17.28,0]])
-    segments=[(0,2.22,'Dm',56),(2.22,4.44,'Bb',61),(4.44,6.66,'Gm',66),(6.66,8.89,'A7',73),
-              (8.89,11.11,'D',88),(11.11,13.33,'G',82),(13.33,14.75,'A7',81),(14.75,16.7,'D',91)]
+def assembly(duration=36.0):
+    RNG.seed(3809001)
+    c=Cue('assembly','A universe, assembled — 380 in calibre 9001',duration,
+          [dict(time=0,label='Individual movement parts: measured rising figures'),dict(time=3,label='Convergence begins'),
+           dict(time=11.5,label='Everything comes together: strings and brass build'),
+           dict(time=17.5,label='Final approach: dominant harmony and timpani crescendo'),
+           dict(time=20,label='380-component movement reveal: full major-key arrival'),
+           dict(time=25.603,label='Count narration ends: melodic orchestral answer'),
+           dict(time=29,label='Complete-watch beauty: soften beneath the last line'),
+           dict(time=34,label='Final major-key cadence after the last words'),dict(time=duration,label='Resolved end')],
+          [[0,.15],[1,.35],[3,.48],[8.5,.57],[11.5,.64],[15,.73],[18.5,.9],[20,1],
+           [22.5,.88],[25.603,.9],[27.5,.7],[29,.52],[32.5,.62],[33.5,.86],[34,1],
+           [34.6,.73],[35.4,.42],[duration,0]])
+    segments=[(0,4,'Dm',46),(4,8,'Bb',51),(8,11.5,'Gm',57),(11.5,15,'Dm9',63),
+              (15,17.5,'Bb',69),(17.5,20,'A7',77),(20,24,'D',91),(24,27,'G',77),
+              (27,29,'Asus',69),(29,31.5,'G',61),(31.5,34,'A7',73),(34,35.3,'D',91)]
     for i,(start,end,chord,v) in enumerate(segments):
-        c.foundation(start,end,chord,v,brass=i>=3,choir=i>=4)
-        c.arpeggio(start+.04,end-.07,chord,.22 if i<4 else .28,v-10)
-        c.arpeggio(start+.02,end-.08,chord,.28,v-19,'pizzicato',-12)
-        if i<4:c.chord('tremolo',start,[CHORDS[chord][2]+12,CHORDS[chord][3]+12],end-start-.1,v-12)
-    c.motif(.3,.39,False,'strings',66,12)
-    c.motif(8.89,.43,True,'horns',88)
-    c.roll(6.7,8.84,38,45,105,.105)
-    c.roll(12.3,14.68,45,45,102,.11)
-    c.crash(8.89,90);c.crash(14.75,72)
-    c.note('timpani',8.89,38,.95,112,False)
-    c.note('timpani',14.75,38,1.6,106,False)
-    c.chord('brass',14.75,[50,57,62,66,69],1.4,87)
-    c.chord('celesta',14.9,[74,78,81,86],1.5,67,.08)
-    c.expression('strings',0,9,58,115)
-    c.expression('horns',6.7,9,70,116)
+        c.foundation(start,end,chord,v,brass=i>=3 and i!=9,choir=i in [6,7,11])
+        step=.48 if i<2 else .32 if i<4 else .23 if i<6 else .36 if i<9 else .55
+        c.arpeggio(start+.05,end-.09,chord,step,v-12)
+        if i<6:c.arpeggio(start+.03,end-.1,chord,.36 if i<3 else .25,v-18,'pizzicato',-12)
+        if 3<=i<6:c.chord('tremolo',start,[CHORDS[chord][2]+12,CHORDS[chord][3]+12],end-start-.15,v-13)
+    c.motif(.7,.62,False,'flute',49,12)
+    c.motif(8.8,.55,False,'strings',61,12)
+    c.motif(14.1,.48,False,'horns',72)
+    c.motif(20,.62,True,'horns',89)
+    c.motif(25.65,.40,True,'flute',61,12)
+    c.roll(17.15,19.94,38,43,105,.11)
+    c.roll(32.2,33.94,45,43,98,.115)
+    c.crash(20,88);c.crash(34,70)
+    c.note('timpani',20,38,1.4,112,False)
+    c.note('timpani',34,38,1.35,108,False)
+    c.chord('brass',20,[50,57,62,66,69],3.3,88)
+    c.chord('harp',20,[62,66,69,74,78,81],1.2,77,.035)
+    c.chord('brass',34,[50,57,62,66,69],1.1,85)
+    c.chord('celesta',34.08,[74,78,81,86],1.1,64,.08)
+    c.expression('strings',0,20,53,116)
+    c.expression('horns',11.5,20,62,116)
     c.save()
 
 

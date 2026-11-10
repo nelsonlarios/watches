@@ -1,5 +1,11 @@
 "use client";
-import { useCallback, useEffect, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from "react";
 import { ACT, LAST_ACT } from "./film-config";
 import prologueTiming from "./prologue-timing.json";
 import {
@@ -21,6 +27,10 @@ import { calendarFrame, smooth } from "./mechanics/cinematic-timeline";
 import film from "./film-narration.json";
 import calendarVoice from "./calendar-timing.json";
 import { sources } from "./research-sources";
+import {
+  ASSEMBLY,
+  CALIBRE_9001_COMPONENTS,
+} from "./mechanics/assembly-timeline";
 import "./cinema.css";
 const acts = [
   {
@@ -109,6 +119,14 @@ function chapterLabel(ct: number) {
                       ? "ONE ORDINARY STEP / 30 → 31"
                       : "FOUR SHORT MONTHS. ONE ELEGANT MEMORY.";
 }
+const motionQuery = "(prefers-reduced-motion: reduce)";
+const subscribeMotion = (update: () => void) => {
+  const query = matchMedia(motionQuery);
+  query.addEventListener("change", update);
+  return () => query.removeEventListener("change", update);
+};
+const readMotion = () => matchMedia(motionQuery).matches;
+const serverMotion = () => false;
 export default function CinematicExperience() {
   const [act, setAct] = useState(0),
     [time, setTime] = useState(0),
@@ -125,8 +143,12 @@ export default function CinematicExperience() {
     [localOffset, setLocalOffset] = useState(0),
     [selector, setSelector] = useState(0),
     [separation, setSeparation] = useState(0.68),
-    [reset, setReset] = useState(0),
-    [reducedMotion, setReducedMotion] = useState(false);
+    [reset, setReset] = useState(0);
+  const reducedMotion = useSyncExternalStore(
+    subscribeMotion,
+    readMotion,
+    serverMotion,
+  );
   const a = useRef<HTMLAudioElement>(null),
     dialog = useRef<HTMLDialogElement>(null),
     request = useRef(0),
@@ -190,7 +212,7 @@ export default function CinematicExperience() {
                 ? index <= ACT.energy
                   ? 0.4
                   : index === ACT.assembly
-                    ? 0.25
+                    ? 0.285
                     : 0.32
                 : 0.7
               : 0;
@@ -216,13 +238,6 @@ export default function CinematicExperience() {
     if (a.current) a.current.muted = muted;
     if (music.current) music.current.muted = muted;
   }, [playing, score, muted]);
-  useEffect(() => {
-    const q = matchMedia("(prefers-reduced-motion: reduce)");
-    setReducedMotion(q.matches);
-    const f = () => setReducedMotion(q.matches);
-    q.addEventListener("change", f);
-    return () => q.removeEventListener("change", f);
-  }, []);
   useEffect(() => {
     if (info) dialog.current?.showModal();
     else dialog.current?.close();
@@ -253,7 +268,7 @@ export default function CinematicExperience() {
             ? "voyage"
             : "assembly";
     return {
-      file: `/audio/score/${file}.mp3`,
+      file: `/audio/score/${file}.mp3${file === "assembly" ? "?v=finale36" : ""}`,
       time: offsets[index] - offsets[start] + at,
     };
   }
@@ -271,7 +286,7 @@ export default function CinematicExperience() {
       ? index <= ACT.energy
         ? 0.4
         : index === ACT.assembly
-          ? 0.25
+          ? 0.285
           : 0.32
       : 0;
     void m
@@ -504,7 +519,7 @@ export default function CinematicExperience() {
           The research & the reference <ArrowUpRight size={13} />
         </button>
       </nav>
-      {!isMechanism && !monthDetail && (
+      {!isMechanism && !monthDetail && act !== ACT.assembly && (
         <section
           className="cinema-copy"
           key={`${act}-${historyActive ? (milestone?.id ?? "start") : ""}`}
@@ -540,18 +555,43 @@ export default function CinematicExperience() {
               </div>
             </>
           )}
-          {act === ACT.assembly &&
-            time > film.chapters[ACT.assembly].duration * 0.6 && (
-              <a
-                className="cinema-discover"
-                href="https://www.rolex.com/en-gb/watches/sky-dweller"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Discover the Sky-Dweller collection <ArrowUpRight size={15} />
-              </a>
-            )}
         </section>
+      )}
+      {act === ACT.assembly && (
+        <>
+          {time < ASSEMBLY.count && (
+            <div className="cinema-assembly-heading">
+              <span>THE ART OF COMING TOGETHER</span>
+              <p>A universe, assembled.</p>
+            </div>
+          )}
+          {time >= ASSEMBLY.count && (
+            <section
+              className="cinema-assembly-count"
+              aria-label="380 movement components in calibre 9001"
+            >
+              <p className="cinema-eyebrow">
+                <span /> CALIBRE 9001
+              </p>
+              <h1>{CALIBRE_9001_COMPONENTS}</h1>
+              <p className="cinema-assembly-unit">MOVEMENT COMPONENTS</p>
+              <div
+                className={`cinema-assembly-beauty ${time >= ASSEMBLY.beauty ? "visible" : ""}`}
+                inert={time < ASSEMBLY.beauty}
+              >
+                <p>One extraordinary watch.</p>
+                <a
+                  className="cinema-discover"
+                  href="https://www.rolex.com/en-gb/watches/sky-dweller"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Discover the Sky-Dweller <ArrowUpRight size={15} />
+                </a>
+              </div>
+            </section>
+          )}
+        </>
       )}
       {isMechanism && (
         <>
@@ -840,6 +880,14 @@ export default function CinematicExperience() {
             Typography, surface profiles and concealed components remain
             approximations. The calendar shows the documented action; its
             internal placement and driver paths are enlarged for clarity.
+          </p>
+          <p>
+            The finale’s 380 is Rolex’s published component count for calibre
+            9001 (2012 launch dossier, page 10). It describes the movement, not
+            the complete watch. The assembly animates the components represented
+            in this model; it is not a part-for-part reconstruction of all 380.
+            Integral teeth, flutes and printing remain attached to their host
+            components.
           </p>
           <p>
             Rolex describes four production Saros fingers. Our rolling geometry

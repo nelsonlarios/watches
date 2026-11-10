@@ -3,7 +3,8 @@ const read = (path) => JSON.parse(fs.readFileSync(path, "utf8"));
 const first = read("public/audio/narration.json"),
   calendar = read("public/audio/calendar-proof/narration.json"),
   prologue = read("public/audio/prologue/narration.json"),
-  months = read("public/audio/month-windows/narration.json");
+  months = read("public/audio/month-windows/narration.json"),
+  assembly = read("public/audio/assembly-finale/narration.json");
 const input = [
   prologue,
   first.chapters[0],
@@ -12,7 +13,7 @@ const input = [
   months,
   first.chapters[3],
   first.chapters[4],
-  first.chapters[5],
+  assembly,
 ];
 const names = [
   "A century of possibility",
