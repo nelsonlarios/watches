@@ -1,0 +1,604 @@
+{
+  "title": "The Traveller\u2019s Little Universe \u2014 original orchestral film score",
+  "generatedAt": "2026-11-10",
+  "originalComposition": true,
+  "budgetSpent": 0,
+  "sampleRate": 44100,
+  "format": "Stereo MP3, 256kbps",
+  "totalTimelineDuration": 244.68,
+  "renderer": "Apple AVAudioEngine offline + AVAudioUnitSampler",
+  "sourceBanksRedistributed": false,
+  "cues": [
+    {
+      "id": "heritage",
+      "title": "From history to a living heartbeat",
+      "file": "/audio/score/heritage.mp3",
+      "duration": 86.76,
+      "timelineDuration": 86.76,
+      "encodedDuration": 86.804898,
+      "decodedDuration": 86.76,
+      "bytes": 2778724,
+      "sha256": "131ab897fc5ffdf90c00c976f976cc76067e8da501d09e425386e3097dc592ad",
+      "rms": 0.063269,
+      "peak": 0.861972,
+      "peakDBFS": -1.29,
+      "gainApplied": 7.199067,
+      "targetRMS": 0.105,
+      "integratedLUFS": -20.35,
+      "truePeakDBTP": -1.28,
+      "loudnessRangeLU": 22.8,
+      "narrationReferenceRMS": 0.11,
+      "recommendedVoiceGain": 0.4,
+      "recommendedNoVoiceGain": 0.7,
+      "voiceRelativeMusicDBAtGain032": -14.7,
+      "segments": [
+        {
+          "act": "history",
+          "offset": 0,
+          "duration": 61.176
+        },
+        {
+          "act": "invitation",
+          "offset": 61.176,
+          "duration": 12.792
+        },
+        {
+          "act": "energy",
+          "offset": 73.968,
+          "duration": 12.792
+        }
+      ],
+      "markers": [
+        {
+          "time": 28.182,
+          "label": "2012 reveal: full warm brass and major-key arrival"
+        },
+        {
+          "time": 40.923,
+          "label": "Eclipse: orchestral breath and choir"
+        },
+        {
+          "time": 45.185,
+          "label": "Mechanism: harp and pizzicato motion"
+        },
+        {
+          "time": 54.801,
+          "label": "Invitation: soften to an intimate melody"
+        },
+        {
+          "time": 61.176,
+          "label": "Act 1 invitation"
+        },
+        {
+          "time": 73.968,
+          "label": "Act 2 energy"
+        }
+      ],
+      "fiveSecondRMS": [
+        {
+          "start": 0,
+          "end": 5,
+          "rms": 0.021093
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "rms": 0.027621
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "rms": 0.035287
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "rms": 0.038422
+        },
+        {
+          "start": 20,
+          "end": 25,
+          "rms": 0.056859
+        },
+        {
+          "start": 25,
+          "end": 30,
+          "rms": 0.168284
+        },
+        {
+          "start": 30,
+          "end": 35,
+          "rms": 0.163677
+        },
+        {
+          "start": 35,
+          "end": 40,
+          "rms": 0.04768
+        },
+        {
+          "start": 40,
+          "end": 45,
+          "rms": 0.011026
+        },
+        {
+          "start": 45,
+          "end": 50,
+          "rms": 0.031437
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "rms": 0.023732
+        },
+        {
+          "start": 55,
+          "end": 60,
+          "rms": 0.009787
+        },
+        {
+          "start": 60,
+          "end": 65,
+          "rms": 0.013271
+        },
+        {
+          "start": 65,
+          "end": 70,
+          "rms": 0.015974
+        },
+        {
+          "start": 70,
+          "end": 75,
+          "rms": 0.018912
+        },
+        {
+          "start": 75,
+          "end": 80,
+          "rms": 0.036883
+        },
+        {
+          "start": 80,
+          "end": 85,
+          "rms": 0.03028
+        },
+        {
+          "start": 85,
+          "end": 86.76,
+          "rms": 0.015037
+        }
+      ],
+      "instruments": [
+        "strings",
+        "tremolo",
+        "cello",
+        "bass",
+        "horns",
+        "brass",
+        "harp",
+        "celesta",
+        "choir",
+        "flute",
+        "timpani",
+        "percussion",
+        "pizzicato"
+      ],
+      "midiSource": "scripts/audio/music/heritage.mid",
+      "narrationReferenceLUFS": -19.02,
+      "voiceRelativeMusicLUFSAtRecommendedGain": -9.29
+    },
+    {
+      "id": "calendar",
+      "title": "The tooth, the encounter, the gap",
+      "file": "/audio/score/calendar.mp3",
+      "duration": 67.44,
+      "timelineDuration": 67.44,
+      "encodedDuration": 67.474286,
+      "decodedDuration": 67.44,
+      "bytes": 2160144,
+      "sha256": "33c1144afb47c811758785594f5638ea9d844a747779d7b939415b114903dac5",
+      "rms": 0.081999,
+      "peak": 0.548679,
+      "peakDBFS": -5.214,
+      "gainApplied": 24.797274,
+      "targetRMS": 0.082,
+      "integratedLUFS": -18.81,
+      "truePeakDBTP": -5.21,
+      "loudnessRangeLU": 6.2,
+      "narrationReferenceRMS": 0.11,
+      "recommendedVoiceGain": 0.32,
+      "recommendedNoVoiceGain": 0.7,
+      "voiceRelativeMusicDBAtGain032": -12.45,
+      "segments": [
+        {
+          "act": "calendar",
+          "offset": 0,
+          "duration": 67.44
+        }
+      ],
+      "markers": [
+        {
+          "time": 21.9,
+          "label": "Release breath: score cuts out"
+        },
+        {
+          "time": 22.7,
+          "label": "Correction contact: small warm harp answer"
+        },
+        {
+          "time": 29.2,
+          "label": "Ordinary contact: second part of the same gesture"
+        },
+        {
+          "time": 35,
+          "label": "The orbit: moving harp figure"
+        },
+        {
+          "time": 51,
+          "label": "May gap: silence through 56.85"
+        },
+        {
+          "time": 57,
+          "label": "One ordinary step"
+        },
+        {
+          "time": 60.948,
+          "label": "Return to the complete watch"
+        }
+      ],
+      "fiveSecondRMS": [
+        {
+          "start": 0,
+          "end": 5,
+          "rms": 0.080633
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "rms": 0.075808
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "rms": 0.06456
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "rms": 0.059759
+        },
+        {
+          "start": 20,
+          "end": 25,
+          "rms": 0.088422
+        },
+        {
+          "start": 25,
+          "end": 30,
+          "rms": 0.120982
+        },
+        {
+          "start": 30,
+          "end": 35,
+          "rms": 0.085223
+        },
+        {
+          "start": 35,
+          "end": 40,
+          "rms": 0.10263
+        },
+        {
+          "start": 40,
+          "end": 45,
+          "rms": 0.086926
+        },
+        {
+          "start": 45,
+          "end": 50,
+          "rms": 0.070116
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "rms": 0.001404
+        },
+        {
+          "start": 55,
+          "end": 60,
+          "rms": 0.057735
+        },
+        {
+          "start": 60,
+          "end": 65,
+          "rms": 0.116659
+        },
+        {
+          "start": 65,
+          "end": 67.44,
+          "rms": 0.046052
+        }
+      ],
+      "instruments": [
+        "strings",
+        "tremolo",
+        "cello",
+        "bass",
+        "horns",
+        "brass",
+        "harp",
+        "celesta",
+        "choir",
+        "flute",
+        "timpani",
+        "percussion",
+        "pizzicato"
+      ],
+      "midiSource": "scripts/audio/music/calendar.mid",
+      "gapSilenceRMS": 0.0,
+      "narrationReferenceLUFS": -19.25,
+      "voiceRelativeMusicLUFSAtRecommendedGain": -9.46
+    },
+    {
+      "id": "voyage",
+      "title": "Twelve windows and two skies",
+      "file": "/audio/score/voyage.mp3",
+      "duration": 73.2,
+      "timelineDuration": 73.2,
+      "encodedDuration": 73.247347,
+      "decodedDuration": 73.2,
+      "bytes": 2344877,
+      "sha256": "17f8ddbfb3806177f62af7cf602df38fd481ce5b25ce987ae506145d1ba881d7",
+      "rms": 0.092003,
+      "peak": 0.710579,
+      "peakDBFS": -2.968,
+      "gainApplied": 20.778732,
+      "targetRMS": 0.092,
+      "integratedLUFS": -18.47,
+      "truePeakDBTP": -2.95,
+      "loudnessRangeLU": 8.3,
+      "narrationReferenceRMS": 0.11,
+      "recommendedVoiceGain": 0.32,
+      "recommendedNoVoiceGain": 0.7,
+      "voiceRelativeMusicDBAtGain032": -11.45,
+      "segments": [
+        {
+          "act": "month-windows",
+          "offset": 0,
+          "duration": 40.032
+        },
+        {
+          "act": "travel",
+          "offset": 40.032,
+          "duration": 15.48
+        },
+        {
+          "act": "ring-command",
+          "offset": 55.512,
+          "duration": 17.688
+        }
+      ],
+      "markers": [
+        {
+          "time": 0,
+          "label": "Month windows: lyrical harp and strings"
+        },
+        {
+          "time": 40.032,
+          "label": "Travel: major-key melody and warmer horns"
+        },
+        {
+          "time": 55.512,
+          "label": "Ring Command: three playful plucked gestures"
+        },
+        {
+          "time": 70,
+          "label": "Leave space for the assembly transition"
+        }
+      ],
+      "fiveSecondRMS": [
+        {
+          "start": 0,
+          "end": 5,
+          "rms": 0.074246
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "rms": 0.08524
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "rms": 0.079721
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "rms": 0.074955
+        },
+        {
+          "start": 20,
+          "end": 25,
+          "rms": 0.091559
+        },
+        {
+          "start": 25,
+          "end": 30,
+          "rms": 0.078653
+        },
+        {
+          "start": 30,
+          "end": 35,
+          "rms": 0.085897
+        },
+        {
+          "start": 35,
+          "end": 40,
+          "rms": 0.05926
+        },
+        {
+          "start": 40,
+          "end": 45,
+          "rms": 0.153991
+        },
+        {
+          "start": 45,
+          "end": 50,
+          "rms": 0.13883
+        },
+        {
+          "start": 50,
+          "end": 55,
+          "rms": 0.130089
+        },
+        {
+          "start": 55,
+          "end": 60,
+          "rms": 0.071914
+        },
+        {
+          "start": 60,
+          "end": 65,
+          "rms": 0.064739
+        },
+        {
+          "start": 65,
+          "end": 70,
+          "rms": 0.058588
+        },
+        {
+          "start": 70,
+          "end": 73.2,
+          "rms": 0.039613
+        }
+      ],
+      "instruments": [
+        "strings",
+        "tremolo",
+        "cello",
+        "bass",
+        "horns",
+        "brass",
+        "harp",
+        "celesta",
+        "choir",
+        "flute",
+        "timpani",
+        "percussion",
+        "pizzicato"
+      ],
+      "midiSource": "scripts/audio/music/voyage.mid",
+      "narrationReferenceLUFS": -19.0,
+      "voiceRelativeMusicLUFSAtRecommendedGain": -9.37
+    },
+    {
+      "id": "assembly",
+      "title": "A universe, assembled",
+      "file": "/audio/score/assembly.mp3",
+      "duration": 17.28,
+      "timelineDuration": 17.28,
+      "encodedDuration": 17.319184,
+      "decodedDuration": 17.28,
+      "bytes": 555168,
+      "sha256": "e86469a431ef6513da91b28ce7a90540c80df831b8aa863b7853dac06b1dd601",
+      "rms": 0.120014,
+      "peak": 0.842443,
+      "peakDBFS": -1.489,
+      "gainApplied": 6.048865,
+      "targetRMS": 0.12,
+      "integratedLUFS": -15.42,
+      "truePeakDBTP": -1.48,
+      "loudnessRangeLU": 12.7,
+      "narrationReferenceRMS": 0.11,
+      "recommendedVoiceGain": 0.25,
+      "recommendedNoVoiceGain": 0.7,
+      "voiceRelativeMusicDBAtGain032": -9.14,
+      "segments": [
+        {
+          "act": "assembly",
+          "offset": 0,
+          "duration": 17.28
+        }
+      ],
+      "markers": [
+        {
+          "time": 0,
+          "label": "Reassembly begins: rising string figures"
+        },
+        {
+          "time": 6.7,
+          "label": "Brass and timpani crescendo"
+        },
+        {
+          "time": 9,
+          "label": "Full orchestral arrival"
+        },
+        {
+          "time": 12.8,
+          "label": "Cadential lift"
+        },
+        {
+          "time": 14.75,
+          "label": "Final major-key resolution"
+        },
+        {
+          "time": 16.7,
+          "label": "Natural final decay"
+        }
+      ],
+      "fiveSecondRMS": [
+        {
+          "start": 0,
+          "end": 5,
+          "rms": 0.036602
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "rms": 0.127661
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "rms": 0.164394
+        },
+        {
+          "start": 15,
+          "end": 17.28,
+          "rms": 0.105921
+        }
+      ],
+      "instruments": [
+        "strings",
+        "tremolo",
+        "cello",
+        "bass",
+        "horns",
+        "brass",
+        "harp",
+        "celesta",
+        "choir",
+        "flute",
+        "timpani",
+        "percussion",
+        "pizzicato"
+      ],
+      "midiSource": "scripts/audio/music/assembly.mid",
+      "narrationReferenceLUFS": -18.5,
+      "voiceRelativeMusicLUFSAtRecommendedGain": -8.96
+    }
+  ],
+  "sourceCredits": [
+    {
+      "name": "Installed Apple Logic factory orchestral samples",
+      "usage": "String ensemble, French horns, full brass, solo flute; only original performed soundtrack is distributed.",
+      "url": "https://support.apple.com/en-us/101908"
+    },
+    {
+      "name": "FluidR3",
+      "author": "Frank Wen and contributors",
+      "usage": "Harp, celesta, choir, cello, bass, tremolo, pizzicato, timpani and orchestral percussion. Bank remains outside the site.",
+      "source": "https://ftp.osuosl.org/pub/musescore/soundfont/fluid-soundfont.tar.gz",
+      "licenseReference": "https://musescore.org/en/handbook/2/soundfonts-and-sfz-files",
+      "archiveReadme": "Original archive README declares release to the public domain on 25 December 2001; MuseScore describes FluidR3 as MIT licensed."
+    }
+  ]
+}

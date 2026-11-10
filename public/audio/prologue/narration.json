@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-10",
+  "title": "A century becomes a mechanism",
+  "text": "Before a watch could follow us around the Earth, it had to survive the world. In 1926, Rolex created the Oyster: a sealed refuge for a tiny mechanical heart. In 1931, the Perpetual rotor began turning the wearer's movement into stored energy. Then, in 1955, the GMT-Master gave travellers a second horizon: two time zones on one wrist. In 2012, the Sky-Dweller carried that story further. Beneath white gold, calibre 9001 brought two time zones together with an annual calendar called Saros. Its name evokes the great eighteen-year cycle of eclipses. Here, the celestial dance becomes machinery: a fixed wheel, an orbiting satellite, four fingers that recognise the thirty-day months. Come closer. Watch a year take shape, one extraordinary midnight at a time.",
+  "file": "/audio/prologue/narration.mp3",
+  "duration": 61.176,
+  "cues": [
+    {
+      "start": 0.1,
+      "end": 5.213,
+      "text": "Before a watch could follow us around the Earth, it had to survive the world."
+    },
+    {
+      "start": 5.213,
+      "end": 12.685,
+      "text": "In 1926, Rolex created the Oyster: a sealed refuge for a tiny mechanical heart."
+    },
+    {
+      "start": 12.685,
+      "end": 19.588,
+      "text": "In 1931, the Perpetual rotor began turning the wearer's movement into stored energy."
+    },
+    {
+      "start": 19.588,
+      "end": 28.182,
+      "text": "Then, in 1955, the GMT-Master gave travellers a second horizon: two time zones on one wrist."
+    },
+    {
+      "start": 28.182,
+      "end": 32.798,
+      "text": "In 2012, the Sky-Dweller carried that story further."
+    },
+    {
+      "start": 32.798,
+      "end": 40.923,
+      "text": "Beneath white gold, calibre 9001 brought two time zones together with an annual calendar called Saros."
+    },
+    {
+      "start": 40.923,
+      "end": 45.185,
+      "text": "Its name evokes the great eighteen-year cycle of eclipses."
+    },
+    {
+      "start": 45.185,
+      "end": 54.801,
+      "text": "Here, the celestial dance becomes machinery: a fixed wheel, an orbiting satellite, four fingers that recognise the thirty-day months."
+    },
+    {
+      "start": 54.801,
+      "end": 56.278,
+      "text": "Come closer."
+    },
+    {
+      "start": 56.278,
+      "end": 61.108,
+      "text": "Watch a year take shape, one extraordinary midnight at a time."
+    }
+  ],
+  "moments": [
+    {
+      "id": "opening-world",
+      "text": "Before a watch could follow us around the Earth, it had to survive the world.",
+      "start": 0.1,
+      "end": 5.213,
+      "sources": []
+    },
+    {
+      "id": "oyster-1926",
+      "text": "In 1926, Rolex created the Oyster: a sealed refuge for a tiny mechanical heart.",
+      "start": 5.213,
+      "end": 12.685,
+      "sources": [
+        "https://www.rolex.com/en-gb/about-rolex/history/1926-1945"
+      ]
+    },
+    {
+      "id": "perpetual-1931",
+      "text": "In 1931, the Perpetual rotor began turning the wearer's movement into stored energy.",
+      "start": 12.685,
+      "end": 19.588,
+      "sources": [
+        "https://www.rolex.com/en-gb/about-rolex/history/1926-1945",
+        "https://www.rolex.org/perpetual/making-history-with-rolex"
+      ]
+    },
+    {
+      "id": "gmt-master-1955",
+      "text": "Then, in 1955, the GMT-Master gave travellers a second horizon: two time zones on one wrist.",
+      "start": 19.588,
+      "end": 28.182,
+      "sources": [
+        "https://www.rolex.com/en-gb/about-rolex/history/1953-1967",
+        "https://www.rolex.com/en-us/watches/gmt-master-ii/time-zone-to-time-zone"
+      ]
+    },
+    {
+      "id": "sky-dweller-2012",
+      "text": "In 2012, the Sky-Dweller carried that story further.",
+      "start": 28.182,
+      "end": 32.798,
+      "sources": [
+        "https://www.rolex.com/en-gb/about-rolex/history/2000-2013"
+      ]
+    },
+    {
+      "id": "calibre-9001",
+      "text": "Beneath white gold, calibre 9001 brought two time zones together with an annual calendar called Saros.",
+      "start": 32.798,
+      "end": 40.923,
+      "sources": [
+        "https://www.thewatch.co.il/image/users/190146/ftp/my_files/ROLEX/Sky-Dweller_EN.pdf#page=2"
+      ]
+    },
+    {
+      "id": "eclipse-name",
+      "text": "Its name evokes the great eighteen-year cycle of eclipses.",
+      "start": 40.923,
+      "end": 45.185,
+      "sources": [
+        "https://eclipse.gsfc.nasa.gov/SEsaros/SEsaros.html"
+      ]
+    },
+    {
+      "id": "celestial-mechanism",
+      "text": "Here, the celestial dance becomes machinery: a fixed wheel, an orbiting satellite, four fingers that recognise the thirty-day months.",
+      "start": 45.185,
+      "end": 54.801,
+      "sources": [
+        "https://www.thewatch.co.il/image/users/190146/ftp/my_files/ROLEX/Sky-Dweller_EN.pdf#page=6"
+      ]
+    },
+    {
+      "id": "invitation",
+      "text": "Come closer. Watch a year take shape, one extraordinary midnight at a time.",
+      "start": 54.801,
+      "end": 61.108,
+      "sources": []
+    }
+  ],
+  "milestones": [
+    {
+      "id": "oyster-1926",
+      "text": "In 1926, Rolex created the Oyster: a sealed refuge for a tiny mechanical heart.",
+      "start": 5.213,
+      "end": 12.685,
+      "sources": [
+        "https://www.rolex.com/en-gb/about-rolex/history/1926-1945"
+      ],
+      "year": 1926,
+      "title": "Oyster",
+      "caption": "A sealed case protects the movement."
+    },
+    {
+      "id": "perpetual-1931",
+      "text": "In 1931, the Perpetual rotor began turning the wearer's movement into stored energy.",
+      "start": 12.685,
+      "end": 19.588,
+      "sources": [
+        "https://www.rolex.com/en-gb/about-rolex/history/1926-1945",
+        "https://www.rolex.org/perpetual/making-history-with-rolex"
+      ],
+      "year": 1931,
+      "title": "Perpetual",
+      "caption": "Motion becomes stored energy."
+    },
+    {
+      "id": "gmt-master-1955",
+      "text": "Then, in 1955, the GMT-Master gave travellers a second horizon: two time zones on one wrist.",
+      "start": 19.588,
+      "end": 28.182,
+      "sources": [
+        "https://www.rolex.com/en-gb/about-rolex/history/1953-1967",
+        "https://www.rolex.com/en-us/watches/gmt-master-ii/time-zone-to-time-zone"
+      ],
+      "year": 1955,
+      "title": "GMT-Master",
+      "caption": "Two time zones. One wrist."
+    },
+    {
+      "id": "sky-dweller-2012",
+      "text": "In 2012, the Sky-Dweller carried that story further.",
+      "start": 28.182,
+      "end": 32.798,
+      "sources": [
+        "https://www.rolex.com/en-gb/about-rolex/history/2000-2013"
+      ],
+      "year": 2012,
+      "title": "Sky-Dweller",
+      "caption": "Two time zones meet the annual calendar."
+    }
+  ],
+  "provider": "Microsoft Edge online neural speech via edge-tts 7.3.1",
+  "aiGenerated": true,
+  "voice": {
+    "id": "en-GB-SoniaNeural",
+    "language": "en-GB",
+    "gender": "female",
+    "rate": "-12%",
+    "pitch": "-8Hz"
+  },
+  "sourceScript": "research/history-prologue.md",
+  "scriptWordCount": 123
+}

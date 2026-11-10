@@ -1,4 +1,4 @@
-import Experience from "./experience";
+import CinematicExperience from "./cinematic-experience";
 export default function Home() {
-  return <Experience />;
+  return <CinematicExperience />;
 }

@@ -1,0 +1,4664 @@
+{
+  "title": "Twelve windows and two skies",
+  "duration": 73.2,
+  "soundFont": "/tmp/sky-dweller-orchestra/FluidR3_GM.sf2",
+  "reverb": 24,
+  "tracks": [
+    {
+      "id": "strings",
+      "program": 48,
+      "instrument": "/Library/Application Support/Logic/Sampler Instruments/09 Orchestral/09 Strings/String Ensemble.exs",
+      "gainDB": -12,
+      "pan": -22
+    },
+    {
+      "id": "tremolo",
+      "program": 44,
+      "instrument": null,
+      "gainDB": -20,
+      "pan": 25
+    },
+    {
+      "id": "cello",
+      "program": 42,
+      "instrument": null,
+      "gainDB": -12,
+      "pan": -12
+    },
+    {
+      "id": "bass",
+      "program": 43,
+      "instrument": null,
+      "gainDB": -14,
+      "pan": 5
+    },
+    {
+      "id": "horns",
+      "program": 60,
+      "instrument": "/Library/Application Support/Logic/Sampler Instruments/09 Orchestral/02 Brass/French Horns Legato.exs",
+      "gainDB": -12,
+      "pan": 22
+    },
+    {
+      "id": "brass",
+      "program": 61,
+      "instrument": "/Library/Application Support/Logic/Sampler Instruments/09 Orchestral/02 Brass/Full Brass Legato.exs",
+      "gainDB": -18,
+      "pan": 12
+    },
+    {
+      "id": "harp",
+      "program": 46,
+      "instrument": null,
+      "gainDB": -12,
+      "pan": -30
+    },
+    {
+      "id": "celesta",
+      "program": 8,
+      "instrument": null,
+      "gainDB": -18,
+      "pan": 28
+    },
+    {
+      "id": "choir",
+      "program": 52,
+      "instrument": null,
+      "gainDB": -19,
+      "pan": 0
+    },
+    {
+      "id": "flute",
+      "program": 73,
+      "instrument": "/Library/Application Support/Logic/Sampler Instruments/09 Orchestral/01 Woodwinds/Flute Solo Legato.exs",
+      "gainDB": -16,
+      "pan": -8
+    },
+    {
+      "id": "timpani",
+      "program": 47,
+      "instrument": null,
+      "gainDB": -13,
+      "pan": 5
+    },
+    {
+      "id": "percussion",
+      "program": 0,
+      "instrument": null,
+      "percussion": true,
+      "gainDB": -18,
+      "pan": 18
+    },
+    {
+      "id": "pizzicato",
+      "program": 45,
+      "instrument": null,
+      "gainDB": -14,
+      "pan": 18
+    }
+  ],
+  "events": [
+    {
+      "time": 0,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 44
+    },
+    {
+      "time": 0.008025,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 46
+    },
+    {
+      "time": 0.013034,
+      "track": "strings",
+      "kind": "on",
+      "note": 65,
+      "velocity": 45
+    },
+    {
+      "time": 0.022803,
+      "track": "cello",
+      "kind": "on",
+      "note": 50,
+      "velocity": 43
+    },
+    {
+      "time": 0.028283,
+      "track": "strings",
+      "kind": "on",
+      "note": 69,
+      "velocity": 46
+    },
+    {
+      "time": 0.028704,
+      "track": "strings",
+      "kind": "on",
+      "note": 76,
+      "velocity": 45
+    },
+    {
+      "time": 0.031153,
+      "track": "bass",
+      "kind": "on",
+      "note": 38,
+      "velocity": 37
+    },
+    {
+      "time": 0.122013,
+      "track": "harp",
+      "kind": "on",
+      "note": 62,
+      "velocity": 51
+    },
+    {
+      "time": 0.155942,
+      "track": "celesta",
+      "kind": "on",
+      "note": 89,
+      "velocity": 40
+    },
+    {
+      "time": 0.668251,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 46
+    },
+    {
+      "time": 0.972013,
+      "track": "harp",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 1.229695,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 42
+    },
+    {
+      "time": 1.255942,
+      "track": "celesta",
+      "kind": "off",
+      "note": 89
+    },
+    {
+      "time": 1.518251,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 1.792352,
+      "track": "harp",
+      "kind": "on",
+      "note": 77,
+      "velocity": 51
+    },
+    {
+      "time": 2.079695,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 2.100735,
+      "track": "flute",
+      "kind": "on",
+      "note": 74,
+      "velocity": 46
+    },
+    {
+      "time": 2.340036,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 44
+    },
+    {
+      "time": 2.642352,
+      "track": "harp",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 2.710143,
+      "track": "flute",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 2.76759,
+      "track": "flute",
+      "kind": "on",
+      "note": 81,
+      "velocity": 49
+    },
+    {
+      "time": 2.896748,
+      "track": "harp",
+      "kind": "on",
+      "note": 86,
+      "velocity": 42
+    },
+    {
+      "time": 3.190036,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 3.216,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 3.224025,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 3.229034,
+      "track": "strings",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 3.238803,
+      "track": "cello",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 3.244283,
+      "track": "strings",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 3.244704,
+      "track": "strings",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 3.247153,
+      "track": "bass",
+      "kind": "off",
+      "note": 38
+    },
+    {
+      "time": 3.336077,
+      "track": "strings",
+      "kind": "on",
+      "note": 53,
+      "velocity": 44
+    },
+    {
+      "time": 3.348989,
+      "track": "strings",
+      "kind": "on",
+      "note": 58,
+      "velocity": 41
+    },
+    {
+      "time": 3.352571,
+      "track": "cello",
+      "kind": "on",
+      "note": 46,
+      "velocity": 40
+    },
+    {
+      "time": 3.352695,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 41
+    },
+    {
+      "time": 3.367485,
+      "track": "strings",
+      "kind": "on",
+      "note": 65,
+      "velocity": 46
+    },
+    {
+      "time": 3.371806,
+      "track": "bass",
+      "kind": "on",
+      "note": 34,
+      "velocity": 35
+    },
+    {
+      "time": 3.376998,
+      "track": "flute",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 3.423204,
+      "track": "flute",
+      "kind": "on",
+      "note": 84,
+      "velocity": 50
+    },
+    {
+      "time": 3.450841,
+      "track": "harp",
+      "kind": "on",
+      "note": 58,
+      "velocity": 51
+    },
+    {
+      "time": 3.746748,
+      "track": "harp",
+      "kind": "off",
+      "note": 86
+    },
+    {
+      "time": 4.012795,
+      "track": "harp",
+      "kind": "on",
+      "note": 65,
+      "velocity": 45
+    },
+    {
+      "time": 4.300841,
+      "track": "harp",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 4.549284,
+      "track": "flute",
+      "kind": "off",
+      "note": 84
+    },
+    {
+      "time": 4.574984,
+      "track": "harp",
+      "kind": "on",
+      "note": 70,
+      "velocity": 41
+    },
+    {
+      "time": 4.656249,
+      "track": "flute",
+      "kind": "on",
+      "note": 81,
+      "velocity": 46
+    },
+    {
+      "time": 4.862795,
+      "track": "harp",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 5.123435,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 49
+    },
+    {
+      "time": 5.252409,
+      "track": "flute",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 5.289557,
+      "track": "flute",
+      "kind": "on",
+      "note": 77,
+      "velocity": 50
+    },
+    {
+      "time": 5.424984,
+      "track": "harp",
+      "kind": "off",
+      "note": 70
+    },
+    {
+      "time": 5.685979,
+      "track": "harp",
+      "kind": "on",
+      "note": 77,
+      "velocity": 49
+    },
+    {
+      "time": 5.885717,
+      "track": "flute",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 5.950027,
+      "track": "flute",
+      "kind": "on",
+      "note": 79,
+      "velocity": 47
+    },
+    {
+      "time": 5.973435,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 6.242237,
+      "track": "harp",
+      "kind": "on",
+      "note": 82,
+      "velocity": 43
+    },
+    {
+      "time": 6.535979,
+      "track": "harp",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 6.546187,
+      "track": "flute",
+      "kind": "off",
+      "note": 79
+    },
+    {
+      "time": 6.552077,
+      "track": "strings",
+      "kind": "off",
+      "note": 53
+    },
+    {
+      "time": 6.564989,
+      "track": "strings",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 6.568571,
+      "track": "cello",
+      "kind": "off",
+      "note": 46
+    },
+    {
+      "time": 6.568695,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 6.583485,
+      "track": "strings",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 6.587806,
+      "track": "bass",
+      "kind": "off",
+      "note": 34
+    },
+    {
+      "time": 6.600512,
+      "track": "flute",
+      "kind": "on",
+      "note": 76,
+      "velocity": 46
+    },
+    {
+      "time": 6.666468,
+      "track": "strings",
+      "kind": "on",
+      "note": 53,
+      "velocity": 45
+    },
+    {
+      "time": 6.675286,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 45
+    },
+    {
+      "time": 6.68639,
+      "track": "cello",
+      "kind": "on",
+      "note": 41,
+      "velocity": 38
+    },
+    {
+      "time": 6.694762,
+      "track": "strings",
+      "kind": "on",
+      "note": 60,
+      "velocity": 45
+    },
+    {
+      "time": 6.698286,
+      "track": "strings",
+      "kind": "on",
+      "note": 65,
+      "velocity": 45
+    },
+    {
+      "time": 6.699979,
+      "track": "bass",
+      "kind": "on",
+      "note": 29,
+      "velocity": 33
+    },
+    {
+      "time": 6.794942,
+      "track": "harp",
+      "kind": "on",
+      "note": 53,
+      "velocity": 52
+    },
+    {
+      "time": 7.092237,
+      "track": "harp",
+      "kind": "off",
+      "note": 82
+    },
+    {
+      "time": 7.196672,
+      "track": "flute",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 7.242476,
+      "track": "flute",
+      "kind": "on",
+      "note": 74,
+      "velocity": 47
+    },
+    {
+      "time": 7.350141,
+      "track": "harp",
+      "kind": "on",
+      "note": 65,
+      "velocity": 48
+    },
+    {
+      "time": 7.644942,
+      "track": "harp",
+      "kind": "off",
+      "note": 53
+    },
+    {
+      "time": 7.909384,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 42
+    },
+    {
+      "time": 8.200141,
+      "track": "harp",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 8.434796,
+      "track": "flute",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 8.465399,
+      "track": "harp",
+      "kind": "on",
+      "note": 72,
+      "velocity": 50
+    },
+    {
+      "time": 8.759384,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 9.008824,
+      "track": "harp",
+      "kind": "on",
+      "note": 77,
+      "velocity": 46
+    },
+    {
+      "time": 9.315399,
+      "track": "harp",
+      "kind": "off",
+      "note": 72
+    },
+    {
+      "time": 9.578447,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 41
+    },
+    {
+      "time": 9.858824,
+      "track": "harp",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 9.882468,
+      "track": "strings",
+      "kind": "off",
+      "note": 53
+    },
+    {
+      "time": 9.891286,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 9.90239,
+      "track": "cello",
+      "kind": "off",
+      "note": 41
+    },
+    {
+      "time": 9.910762,
+      "track": "strings",
+      "kind": "off",
+      "note": 60
+    },
+    {
+      "time": 9.914286,
+      "track": "strings",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 9.915979,
+      "track": "bass",
+      "kind": "off",
+      "note": 29
+    },
+    {
+      "time": 10.015507,
+      "track": "strings",
+      "kind": "on",
+      "note": 55,
+      "velocity": 47
+    },
+    {
+      "time": 10.017555,
+      "track": "strings",
+      "kind": "on",
+      "note": 60,
+      "velocity": 47
+    },
+    {
+      "time": 10.025534,
+      "track": "cello",
+      "kind": "on",
+      "note": 48,
+      "velocity": 42
+    },
+    {
+      "time": 10.026128,
+      "track": "strings",
+      "kind": "on",
+      "note": 64,
+      "velocity": 49
+    },
+    {
+      "time": 10.037226,
+      "track": "strings",
+      "kind": "on",
+      "note": 67,
+      "velocity": 44
+    },
+    {
+      "time": 10.040444,
+      "track": "bass",
+      "kind": "on",
+      "note": 36,
+      "velocity": 38
+    },
+    {
+      "time": 10.128151,
+      "track": "harp",
+      "kind": "on",
+      "note": 60,
+      "velocity": 53
+    },
+    {
+      "time": 10.175516,
+      "track": "celesta",
+      "kind": "on",
+      "note": 88,
+      "velocity": 43
+    },
+    {
+      "time": 10.428447,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 10.68383,
+      "track": "harp",
+      "kind": "on",
+      "note": 67,
+      "velocity": 46
+    },
+    {
+      "time": 10.978151,
+      "track": "harp",
+      "kind": "off",
+      "note": 60
+    },
+    {
+      "time": 11.233803,
+      "track": "harp",
+      "kind": "on",
+      "note": 72,
+      "velocity": 43
+    },
+    {
+      "time": 11.275516,
+      "track": "celesta",
+      "kind": "off",
+      "note": 88
+    },
+    {
+      "time": 11.53383,
+      "track": "harp",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 11.790406,
+      "track": "harp",
+      "kind": "on",
+      "note": 76,
+      "velocity": 50
+    },
+    {
+      "time": 12.083803,
+      "track": "harp",
+      "kind": "off",
+      "note": 72
+    },
+    {
+      "time": 12.357329,
+      "track": "harp",
+      "kind": "on",
+      "note": 79,
+      "velocity": 48
+    },
+    {
+      "time": 12.640406,
+      "track": "harp",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 12.902068,
+      "track": "harp",
+      "kind": "on",
+      "note": 84,
+      "velocity": 42
+    },
+    {
+      "time": 13.207329,
+      "track": "harp",
+      "kind": "off",
+      "note": 79
+    },
+    {
+      "time": 13.231507,
+      "track": "strings",
+      "kind": "off",
+      "note": 55
+    },
+    {
+      "time": 13.233555,
+      "track": "strings",
+      "kind": "off",
+      "note": 60
+    },
+    {
+      "time": 13.241534,
+      "track": "cello",
+      "kind": "off",
+      "note": 48
+    },
+    {
+      "time": 13.242128,
+      "track": "strings",
+      "kind": "off",
+      "note": 64
+    },
+    {
+      "time": 13.253226,
+      "track": "strings",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 13.256444,
+      "track": "bass",
+      "kind": "off",
+      "note": 36
+    },
+    {
+      "time": 13.339203,
+      "track": "strings",
+      "kind": "on",
+      "note": 55,
+      "velocity": 41
+    },
+    {
+      "time": 13.345053,
+      "track": "strings",
+      "kind": "on",
+      "note": 58,
+      "velocity": 44
+    },
+    {
+      "time": 13.359069,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 42
+    },
+    {
+      "time": 13.359903,
+      "track": "cello",
+      "kind": "on",
+      "note": 43,
+      "velocity": 36
+    },
+    {
+      "time": 13.376895,
+      "track": "strings",
+      "kind": "on",
+      "note": 67,
+      "velocity": 42
+    },
+    {
+      "time": 13.377276,
+      "track": "bass",
+      "kind": "on",
+      "note": 31,
+      "velocity": 35
+    },
+    {
+      "time": 13.456882,
+      "track": "harp",
+      "kind": "on",
+      "note": 55,
+      "velocity": 53
+    },
+    {
+      "time": 13.467278,
+      "track": "choir",
+      "kind": "on",
+      "note": 58,
+      "velocity": 40
+    },
+    {
+      "time": 13.482459,
+      "track": "choir",
+      "kind": "on",
+      "note": 62,
+      "velocity": 41
+    },
+    {
+      "time": 13.495942,
+      "track": "choir",
+      "kind": "on",
+      "note": 67,
+      "velocity": 40
+    },
+    {
+      "time": 13.752068,
+      "track": "harp",
+      "kind": "off",
+      "note": 84
+    },
+    {
+      "time": 14.015755,
+      "track": "harp",
+      "kind": "on",
+      "note": 67,
+      "velocity": 46
+    },
+    {
+      "time": 14.306882,
+      "track": "harp",
+      "kind": "off",
+      "note": 55
+    },
+    {
+      "time": 14.574302,
+      "track": "harp",
+      "kind": "on",
+      "note": 70,
+      "velocity": 44
+    },
+    {
+      "time": 14.865755,
+      "track": "harp",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 15.124034,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 53
+    },
+    {
+      "time": 15.393675,
+      "track": "strings",
+      "kind": "on",
+      "note": 74,
+      "velocity": 54
+    },
+    {
+      "time": 15.424302,
+      "track": "harp",
+      "kind": "off",
+      "note": 70
+    },
+    {
+      "time": 15.681835,
+      "track": "harp",
+      "kind": "on",
+      "note": 79,
+      "velocity": 47
+    },
+    {
+      "time": 15.960763,
+      "track": "strings",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 15.974034,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 16.018535,
+      "track": "strings",
+      "kind": "on",
+      "note": 81,
+      "velocity": 48
+    },
+    {
+      "time": 16.23726,
+      "track": "harp",
+      "kind": "on",
+      "note": 82,
+      "velocity": 42
+    },
+    {
+      "time": 16.483278,
+      "track": "choir",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 16.498459,
+      "track": "choir",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 16.511942,
+      "track": "choir",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 16.531835,
+      "track": "harp",
+      "kind": "off",
+      "note": 79
+    },
+    {
+      "time": 16.555203,
+      "track": "strings",
+      "kind": "off",
+      "note": 55
+    },
+    {
+      "time": 16.561053,
+      "track": "strings",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 16.575069,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 16.575903,
+      "track": "cello",
+      "kind": "off",
+      "note": 43
+    },
+    {
+      "time": 16.585623,
+      "track": "strings",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 16.592895,
+      "track": "strings",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 16.593276,
+      "track": "bass",
+      "kind": "off",
+      "note": 31
+    },
+    {
+      "time": 16.636004,
+      "track": "strings",
+      "kind": "on",
+      "note": 84,
+      "velocity": 50
+    },
+    {
+      "time": 16.672982,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 43
+    },
+    {
+      "time": 16.690209,
+      "track": "strings",
+      "kind": "on",
+      "note": 65,
+      "velocity": 41
+    },
+    {
+      "time": 16.69068,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 45
+    },
+    {
+      "time": 16.694897,
+      "track": "cello",
+      "kind": "on",
+      "note": 50,
+      "velocity": 42
+    },
+    {
+      "time": 16.704239,
+      "track": "strings",
+      "kind": "on",
+      "note": 69,
+      "velocity": 43
+    },
+    {
+      "time": 16.714782,
+      "track": "bass",
+      "kind": "on",
+      "note": 38,
+      "velocity": 36
+    },
+    {
+      "time": 16.806696,
+      "track": "harp",
+      "kind": "on",
+      "note": 62,
+      "velocity": 51
+    },
+    {
+      "time": 17.08726,
+      "track": "harp",
+      "kind": "off",
+      "note": 82
+    },
+    {
+      "time": 17.35812,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 44
+    },
+    {
+      "time": 17.656696,
+      "track": "harp",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 17.683884,
+      "track": "strings",
+      "kind": "off",
+      "note": 84
+    },
+    {
+      "time": 17.76696,
+      "track": "strings",
+      "kind": "on",
+      "note": 81,
+      "velocity": 49
+    },
+    {
+      "time": 17.905947,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 40
+    },
+    {
+      "time": 18.20812,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 18.32172,
+      "track": "strings",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 18.374784,
+      "track": "strings",
+      "kind": "on",
+      "note": 77,
+      "velocity": 53
+    },
+    {
+      "time": 18.473633,
+      "track": "harp",
+      "kind": "on",
+      "note": 77,
+      "velocity": 50
+    },
+    {
+      "time": 18.755947,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 18.929544,
+      "track": "strings",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 18.983943,
+      "track": "strings",
+      "kind": "on",
+      "note": 79,
+      "velocity": 49
+    },
+    {
+      "time": 19.016339,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 44
+    },
+    {
+      "time": 19.323633,
+      "track": "harp",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 19.538703,
+      "track": "strings",
+      "kind": "off",
+      "note": 79
+    },
+    {
+      "time": 19.57712,
+      "track": "harp",
+      "kind": "on",
+      "note": 86,
+      "velocity": 43
+    },
+    {
+      "time": 19.57957,
+      "track": "strings",
+      "kind": "on",
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "time": 19.866339,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 19.888982,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 19.906209,
+      "track": "strings",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 19.90668,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 19.910897,
+      "track": "cello",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 19.920239,
+      "track": "strings",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 19.930782,
+      "track": "bass",
+      "kind": "off",
+      "note": 38
+    },
+    {
+      "time": 20.019031,
+      "track": "strings",
+      "kind": "on",
+      "note": 58,
+      "velocity": 46
+    },
+    {
+      "time": 20.02248,
+      "track": "strings",
+      "kind": "on",
+      "note": 53,
+      "velocity": 48
+    },
+    {
+      "time": 20.030066,
+      "track": "cello",
+      "kind": "on",
+      "note": 46,
+      "velocity": 45
+    },
+    {
+      "time": 20.032032,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 49
+    },
+    {
+      "time": 20.039221,
+      "track": "strings",
+      "kind": "on",
+      "note": 65,
+      "velocity": 49
+    },
+    {
+      "time": 20.04199,
+      "track": "bass",
+      "kind": "on",
+      "note": 34,
+      "velocity": 35
+    },
+    {
+      "time": 20.131984,
+      "track": "harp",
+      "kind": "on",
+      "note": 58,
+      "velocity": 50
+    },
+    {
+      "time": 20.13433,
+      "track": "strings",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 20.179069,
+      "track": "celesta",
+      "kind": "on",
+      "note": 86,
+      "velocity": 40
+    },
+    {
+      "time": 20.191664,
+      "track": "strings",
+      "kind": "on",
+      "note": 74,
+      "velocity": 48
+    },
+    {
+      "time": 20.42712,
+      "track": "harp",
+      "kind": "off",
+      "note": 86
+    },
+    {
+      "time": 20.69654,
+      "track": "harp",
+      "kind": "on",
+      "note": 65,
+      "velocity": 46
+    },
+    {
+      "time": 20.981984,
+      "track": "harp",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 21.247017,
+      "track": "harp",
+      "kind": "on",
+      "note": 70,
+      "velocity": 41
+    },
+    {
+      "time": 21.279069,
+      "track": "celesta",
+      "kind": "off",
+      "note": 86
+    },
+    {
+      "time": 21.301184,
+      "track": "strings",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 21.54654,
+      "track": "harp",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 21.802302,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 48
+    },
+    {
+      "time": 22.097017,
+      "track": "harp",
+      "kind": "off",
+      "note": 70
+    },
+    {
+      "time": 22.35802,
+      "track": "harp",
+      "kind": "on",
+      "note": 77,
+      "velocity": 45
+    },
+    {
+      "time": 22.652302,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 22.917731,
+      "track": "harp",
+      "kind": "on",
+      "note": 82,
+      "velocity": 42
+    },
+    {
+      "time": 23.20802,
+      "track": "harp",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 23.235031,
+      "track": "strings",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 23.23848,
+      "track": "strings",
+      "kind": "off",
+      "note": 53
+    },
+    {
+      "time": 23.246066,
+      "track": "cello",
+      "kind": "off",
+      "note": 46
+    },
+    {
+      "time": 23.248032,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 23.255221,
+      "track": "strings",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 23.25799,
+      "track": "bass",
+      "kind": "off",
+      "note": 34
+    },
+    {
+      "time": 23.347145,
+      "track": "strings",
+      "kind": "on",
+      "note": 55,
+      "velocity": 41
+    },
+    {
+      "time": 23.356778,
+      "track": "strings",
+      "kind": "on",
+      "note": 60,
+      "velocity": 45
+    },
+    {
+      "time": 23.364554,
+      "track": "strings",
+      "kind": "on",
+      "note": 64,
+      "velocity": 42
+    },
+    {
+      "time": 23.367259,
+      "track": "cello",
+      "kind": "on",
+      "note": 48,
+      "velocity": 42
+    },
+    {
+      "time": 23.373565,
+      "track": "strings",
+      "kind": "on",
+      "note": 67,
+      "velocity": 44
+    },
+    {
+      "time": 23.386177,
+      "track": "bass",
+      "kind": "on",
+      "note": 36,
+      "velocity": 36
+    },
+    {
+      "time": 23.467674,
+      "track": "harp",
+      "kind": "on",
+      "note": 60,
+      "velocity": 53
+    },
+    {
+      "time": 23.767731,
+      "track": "harp",
+      "kind": "off",
+      "note": 82
+    },
+    {
+      "time": 24.026961,
+      "track": "harp",
+      "kind": "on",
+      "note": 67,
+      "velocity": 44
+    },
+    {
+      "time": 24.317674,
+      "track": "harp",
+      "kind": "off",
+      "note": 60
+    },
+    {
+      "time": 24.58707,
+      "track": "harp",
+      "kind": "on",
+      "note": 72,
+      "velocity": 43
+    },
+    {
+      "time": 24.876961,
+      "track": "harp",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 25.135706,
+      "track": "harp",
+      "kind": "on",
+      "note": 76,
+      "velocity": 53
+    },
+    {
+      "time": 25.43707,
+      "track": "harp",
+      "kind": "off",
+      "note": 72
+    },
+    {
+      "time": 25.703378,
+      "track": "harp",
+      "kind": "on",
+      "note": 79,
+      "velocity": 44
+    },
+    {
+      "time": 25.985706,
+      "track": "harp",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 26.249339,
+      "track": "harp",
+      "kind": "on",
+      "note": 84,
+      "velocity": 43
+    },
+    {
+      "time": 26.553378,
+      "track": "harp",
+      "kind": "off",
+      "note": 79
+    },
+    {
+      "time": 26.563145,
+      "track": "strings",
+      "kind": "off",
+      "note": 55
+    },
+    {
+      "time": 26.572778,
+      "track": "strings",
+      "kind": "off",
+      "note": 60
+    },
+    {
+      "time": 26.580554,
+      "track": "strings",
+      "kind": "off",
+      "note": 64
+    },
+    {
+      "time": 26.583259,
+      "track": "cello",
+      "kind": "off",
+      "note": 48
+    },
+    {
+      "time": 26.589565,
+      "track": "strings",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 26.602177,
+      "track": "bass",
+      "kind": "off",
+      "note": 36
+    },
+    {
+      "time": 26.680043,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 41
+    },
+    {
+      "time": 26.696165,
+      "track": "strings",
+      "kind": "on",
+      "note": 60,
+      "velocity": 44
+    },
+    {
+      "time": 26.705127,
+      "track": "strings",
+      "kind": "on",
+      "note": 64,
+      "velocity": 43
+    },
+    {
+      "time": 26.706818,
+      "track": "cello",
+      "kind": "on",
+      "note": 45,
+      "velocity": 40
+    },
+    {
+      "time": 26.715537,
+      "track": "bass",
+      "kind": "on",
+      "note": 33,
+      "velocity": 36
+    },
+    {
+      "time": 26.717269,
+      "track": "strings",
+      "kind": "on",
+      "note": 69,
+      "velocity": 42
+    },
+    {
+      "time": 26.80554,
+      "track": "harp",
+      "kind": "on",
+      "note": 57,
+      "velocity": 52
+    },
+    {
+      "time": 26.814847,
+      "track": "choir",
+      "kind": "on",
+      "note": 60,
+      "velocity": 37
+    },
+    {
+      "time": 26.82794,
+      "track": "choir",
+      "kind": "on",
+      "note": 64,
+      "velocity": 36
+    },
+    {
+      "time": 26.828448,
+      "track": "choir",
+      "kind": "on",
+      "note": 69,
+      "velocity": 36
+    },
+    {
+      "time": 27.099339,
+      "track": "harp",
+      "kind": "off",
+      "note": 84
+    },
+    {
+      "time": 27.364474,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 45
+    },
+    {
+      "time": 27.65554,
+      "track": "harp",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 27.913599,
+      "track": "harp",
+      "kind": "on",
+      "note": 72,
+      "velocity": 42
+    },
+    {
+      "time": 28.214474,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 28.47641,
+      "track": "harp",
+      "kind": "on",
+      "note": 76,
+      "velocity": 51
+    },
+    {
+      "time": 28.763599,
+      "track": "harp",
+      "kind": "off",
+      "note": 72
+    },
+    {
+      "time": 29.00547,
+      "track": "flute",
+      "kind": "on",
+      "note": 74,
+      "velocity": 44
+    },
+    {
+      "time": 29.033326,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 48
+    },
+    {
+      "time": 29.32641,
+      "track": "harp",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 29.59414,
+      "track": "harp",
+      "kind": "on",
+      "note": 84,
+      "velocity": 45
+    },
+    {
+      "time": 29.623342,
+      "track": "flute",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 29.670005,
+      "track": "flute",
+      "kind": "on",
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "time": 29.830847,
+      "track": "choir",
+      "kind": "off",
+      "note": 60
+    },
+    {
+      "time": 29.84394,
+      "track": "choir",
+      "kind": "off",
+      "note": 64
+    },
+    {
+      "time": 29.844448,
+      "track": "choir",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 29.883326,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 29.896043,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 29.912165,
+      "track": "strings",
+      "kind": "off",
+      "note": 60
+    },
+    {
+      "time": 29.921127,
+      "track": "strings",
+      "kind": "off",
+      "note": 64
+    },
+    {
+      "time": 29.922818,
+      "track": "cello",
+      "kind": "off",
+      "note": 45
+    },
+    {
+      "time": 29.931537,
+      "track": "bass",
+      "kind": "off",
+      "note": 33
+    },
+    {
+      "time": 29.933269,
+      "track": "strings",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 30.017175,
+      "track": "strings",
+      "kind": "on",
+      "note": 53,
+      "velocity": 49
+    },
+    {
+      "time": 30.030824,
+      "track": "strings",
+      "kind": "on",
+      "note": 58,
+      "velocity": 48
+    },
+    {
+      "time": 30.045859,
+      "track": "cello",
+      "kind": "on",
+      "note": 46,
+      "velocity": 45
+    },
+    {
+      "time": 30.048646,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 44
+    },
+    {
+      "time": 30.053288,
+      "track": "strings",
+      "kind": "on",
+      "note": 65,
+      "velocity": 49
+    },
+    {
+      "time": 30.054908,
+      "track": "bass",
+      "kind": "on",
+      "note": 34,
+      "velocity": 39
+    },
+    {
+      "time": 30.136032,
+      "track": "harp",
+      "kind": "on",
+      "note": 58,
+      "velocity": 53
+    },
+    {
+      "time": 30.176046,
+      "track": "celesta",
+      "kind": "on",
+      "note": 86,
+      "velocity": 40
+    },
+    {
+      "time": 30.287877,
+      "track": "flute",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 30.346075,
+      "track": "flute",
+      "kind": "on",
+      "note": 84,
+      "velocity": 49
+    },
+    {
+      "time": 30.44414,
+      "track": "harp",
+      "kind": "off",
+      "note": 84
+    },
+    {
+      "time": 30.703722,
+      "track": "harp",
+      "kind": "on",
+      "note": 65,
+      "velocity": 49
+    },
+    {
+      "time": 30.986032,
+      "track": "harp",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 31.256468,
+      "track": "harp",
+      "kind": "on",
+      "note": 70,
+      "velocity": 46
+    },
+    {
+      "time": 31.276046,
+      "track": "celesta",
+      "kind": "off",
+      "note": 86
+    },
+    {
+      "time": 31.487795,
+      "track": "flute",
+      "kind": "off",
+      "note": 84
+    },
+    {
+      "time": 31.553722,
+      "track": "harp",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 31.585954,
+      "track": "flute",
+      "kind": "on",
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "time": 31.805984,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 50
+    },
+    {
+      "time": 32.106468,
+      "track": "harp",
+      "kind": "off",
+      "note": 70
+    },
+    {
+      "time": 32.190394,
+      "track": "flute",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 32.243869,
+      "track": "flute",
+      "kind": "on",
+      "note": 77,
+      "velocity": 44
+    },
+    {
+      "time": 32.371728,
+      "track": "harp",
+      "kind": "on",
+      "note": 77,
+      "velocity": 46
+    },
+    {
+      "time": 32.655984,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 32.848309,
+      "track": "flute",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 32.899457,
+      "track": "flute",
+      "kind": "on",
+      "note": 79,
+      "velocity": 47
+    },
+    {
+      "time": 32.92278,
+      "track": "harp",
+      "kind": "on",
+      "note": 82,
+      "velocity": 45
+    },
+    {
+      "time": 33.221728,
+      "track": "harp",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 33.233175,
+      "track": "strings",
+      "kind": "off",
+      "note": 53
+    },
+    {
+      "time": 33.246824,
+      "track": "strings",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 33.261859,
+      "track": "cello",
+      "kind": "off",
+      "note": 46
+    },
+    {
+      "time": 33.264646,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 33.269288,
+      "track": "strings",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 33.270908,
+      "track": "bass",
+      "kind": "off",
+      "note": 34
+    },
+    {
+      "time": 33.366848,
+      "track": "strings",
+      "kind": "on",
+      "note": 55,
+      "velocity": 42
+    },
+    {
+      "time": 33.368551,
+      "track": "strings",
+      "kind": "on",
+      "note": 58,
+      "velocity": 42
+    },
+    {
+      "time": 33.369052,
+      "track": "cello",
+      "kind": "on",
+      "note": 43,
+      "velocity": 38
+    },
+    {
+      "time": 33.370468,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 45
+    },
+    {
+      "time": 33.381532,
+      "track": "strings",
+      "kind": "on",
+      "note": 67,
+      "velocity": 40
+    },
+    {
+      "time": 33.385113,
+      "track": "bass",
+      "kind": "on",
+      "note": 31,
+      "velocity": 32
+    },
+    {
+      "time": 33.474083,
+      "track": "harp",
+      "kind": "on",
+      "note": 55,
+      "velocity": 50
+    },
+    {
+      "time": 33.503897,
+      "track": "flute",
+      "kind": "off",
+      "note": 79
+    },
+    {
+      "time": 33.557096,
+      "track": "flute",
+      "kind": "on",
+      "note": 76,
+      "velocity": 44
+    },
+    {
+      "time": 33.77278,
+      "track": "harp",
+      "kind": "off",
+      "note": 82
+    },
+    {
+      "time": 34.03409,
+      "track": "harp",
+      "kind": "on",
+      "note": 67,
+      "velocity": 48
+    },
+    {
+      "time": 34.161536,
+      "track": "flute",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 34.216518,
+      "track": "flute",
+      "kind": "on",
+      "note": 74,
+      "velocity": 48
+    },
+    {
+      "time": 34.324083,
+      "track": "harp",
+      "kind": "off",
+      "note": 55
+    },
+    {
+      "time": 34.598296,
+      "track": "harp",
+      "kind": "on",
+      "note": 70,
+      "velocity": 45
+    },
+    {
+      "time": 34.88409,
+      "track": "harp",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 35.141512,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 49
+    },
+    {
+      "time": 35.425398,
+      "track": "flute",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 35.448296,
+      "track": "harp",
+      "kind": "off",
+      "note": 70
+    },
+    {
+      "time": 35.710398,
+      "track": "harp",
+      "kind": "on",
+      "note": 79,
+      "velocity": 44
+    },
+    {
+      "time": 35.991512,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 36.263751,
+      "track": "harp",
+      "kind": "on",
+      "note": 82,
+      "velocity": 42
+    },
+    {
+      "time": 36.560398,
+      "track": "harp",
+      "kind": "off",
+      "note": 79
+    },
+    {
+      "time": 36.582848,
+      "track": "strings",
+      "kind": "off",
+      "note": 55
+    },
+    {
+      "time": 36.584551,
+      "track": "strings",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 36.585052,
+      "track": "cello",
+      "kind": "off",
+      "note": 43
+    },
+    {
+      "time": 36.586468,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 36.597532,
+      "track": "strings",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 36.601113,
+      "track": "bass",
+      "kind": "off",
+      "note": 31
+    },
+    {
+      "time": 36.690811,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 40
+    },
+    {
+      "time": 36.700597,
+      "track": "strings",
+      "kind": "on",
+      "note": 61,
+      "velocity": 42
+    },
+    {
+      "time": 36.709135,
+      "track": "strings",
+      "kind": "on",
+      "note": 64,
+      "velocity": 42
+    },
+    {
+      "time": 36.718544,
+      "track": "cello",
+      "kind": "on",
+      "note": 45,
+      "velocity": 39
+    },
+    {
+      "time": 36.72132,
+      "track": "bass",
+      "kind": "on",
+      "note": 33,
+      "velocity": 35
+    },
+    {
+      "time": 36.72933,
+      "track": "strings",
+      "kind": "on",
+      "note": 67,
+      "velocity": 44
+    },
+    {
+      "time": 36.815918,
+      "track": "harp",
+      "kind": "on",
+      "note": 57,
+      "velocity": 52
+    },
+    {
+      "time": 37.113751,
+      "track": "harp",
+      "kind": "off",
+      "note": 82
+    },
+    {
+      "time": 37.366412,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 49
+    },
+    {
+      "time": 37.665918,
+      "track": "harp",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 37.922599,
+      "track": "harp",
+      "kind": "on",
+      "note": 73,
+      "velocity": 46
+    },
+    {
+      "time": 38.216412,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 38.482871,
+      "track": "harp",
+      "kind": "on",
+      "note": 76,
+      "velocity": 53
+    },
+    {
+      "time": 38.772599,
+      "track": "harp",
+      "kind": "off",
+      "note": 73
+    },
+    {
+      "time": 39.032956,
+      "track": "harp",
+      "kind": "on",
+      "note": 79,
+      "velocity": 46
+    },
+    {
+      "time": 39.332871,
+      "track": "harp",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 39.603409,
+      "track": "harp",
+      "kind": "on",
+      "note": 85,
+      "velocity": 44
+    },
+    {
+      "time": 39.882956,
+      "track": "harp",
+      "kind": "off",
+      "note": 79
+    },
+    {
+      "time": 39.906811,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 39.916597,
+      "track": "strings",
+      "kind": "off",
+      "note": 61
+    },
+    {
+      "time": 39.925135,
+      "track": "strings",
+      "kind": "off",
+      "note": 64
+    },
+    {
+      "time": 39.934544,
+      "track": "cello",
+      "kind": "off",
+      "note": 45
+    },
+    {
+      "time": 39.93732,
+      "track": "bass",
+      "kind": "off",
+      "note": 33
+    },
+    {
+      "time": 39.94533,
+      "track": "strings",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 40.029675,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 51
+    },
+    {
+      "time": 40.038523,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 51
+    },
+    {
+      "time": 40.040353,
+      "track": "cello",
+      "kind": "on",
+      "note": 50,
+      "velocity": 48
+    },
+    {
+      "time": 40.043347,
+      "track": "strings",
+      "kind": "on",
+      "note": 66,
+      "velocity": 53
+    },
+    {
+      "time": 40.059423,
+      "track": "bass",
+      "kind": "on",
+      "note": 38,
+      "velocity": 45
+    },
+    {
+      "time": 40.062837,
+      "track": "strings",
+      "kind": "on",
+      "note": 69,
+      "velocity": 50
+    },
+    {
+      "time": 40.072945,
+      "track": "horns",
+      "kind": "on",
+      "note": 62,
+      "velocity": 49
+    },
+    {
+      "time": 40.078964,
+      "track": "horns",
+      "kind": "on",
+      "note": 62,
+      "velocity": 48
+    },
+    {
+      "time": 40.095999,
+      "track": "horns",
+      "kind": "on",
+      "note": 66,
+      "velocity": 47
+    },
+    {
+      "time": 40.196409,
+      "track": "harp",
+      "kind": "on",
+      "note": 62,
+      "velocity": 46
+    },
+    {
+      "time": 40.453409,
+      "track": "harp",
+      "kind": "off",
+      "note": 85
+    },
+    {
+      "time": 40.60055,
+      "track": "horns",
+      "kind": "on",
+      "note": 62,
+      "velocity": 57
+    },
+    {
+      "time": 40.876572,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 42
+    },
+    {
+      "time": 41.046409,
+      "track": "harp",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 41.209958,
+      "track": "horns",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 41.262584,
+      "track": "horns",
+      "kind": "on",
+      "note": 69,
+      "velocity": 59
+    },
+    {
+      "time": 41.554943,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 40
+    },
+    {
+      "time": 41.726572,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 41.871992,
+      "track": "horns",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 41.930435,
+      "track": "horns",
+      "kind": "on",
+      "note": 74,
+      "velocity": 58
+    },
+    {
+      "time": 42.248097,
+      "track": "harp",
+      "kind": "on",
+      "note": 78,
+      "velocity": 49
+    },
+    {
+      "time": 42.404943,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 42.914621,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 42
+    },
+    {
+      "time": 43.056515,
+      "track": "horns",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 43.098097,
+      "track": "harp",
+      "kind": "off",
+      "note": 78
+    },
+    {
+      "time": 43.155702,
+      "track": "horns",
+      "kind": "on",
+      "note": 73,
+      "velocity": 58
+    },
+    {
+      "time": 43.598637,
+      "track": "harp",
+      "kind": "on",
+      "note": 86,
+      "velocity": 41
+    },
+    {
+      "time": 43.751862,
+      "track": "horns",
+      "kind": "off",
+      "note": 73
+    },
+    {
+      "time": 43.764621,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 43.793703,
+      "track": "horns",
+      "kind": "on",
+      "note": 69,
+      "velocity": 59
+    },
+    {
+      "time": 44.284604,
+      "track": "harp",
+      "kind": "on",
+      "note": 62,
+      "velocity": 48
+    },
+    {
+      "time": 44.320945,
+      "track": "horns",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 44.326964,
+      "track": "horns",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 44.343999,
+      "track": "horns",
+      "kind": "off",
+      "note": 66
+    },
+    {
+      "time": 44.377675,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 44.386523,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 44.388353,
+      "track": "cello",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 44.389863,
+      "track": "horns",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 44.391347,
+      "track": "strings",
+      "kind": "off",
+      "note": 66
+    },
+    {
+      "time": 44.407423,
+      "track": "bass",
+      "kind": "off",
+      "note": 38
+    },
+    {
+      "time": 44.410837,
+      "track": "strings",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 44.441308,
+      "track": "horns",
+      "kind": "on",
+      "note": 67,
+      "velocity": 57
+    },
+    {
+      "time": 44.448637,
+      "track": "harp",
+      "kind": "off",
+      "note": 86
+    },
+    {
+      "time": 44.492686,
+      "track": "strings",
+      "kind": "on",
+      "note": 55,
+      "velocity": 50
+    },
+    {
+      "time": 44.50662,
+      "track": "strings",
+      "kind": "on",
+      "note": 59,
+      "velocity": 49
+    },
+    {
+      "time": 44.512836,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 53
+    },
+    {
+      "time": 44.522318,
+      "track": "cello",
+      "kind": "on",
+      "note": 43,
+      "velocity": 49
+    },
+    {
+      "time": 44.53074,
+      "track": "strings",
+      "kind": "on",
+      "note": 67,
+      "velocity": 52
+    },
+    {
+      "time": 44.532569,
+      "track": "bass",
+      "kind": "on",
+      "note": 31,
+      "velocity": 41
+    },
+    {
+      "time": 44.544876,
+      "track": "horns",
+      "kind": "on",
+      "note": 55,
+      "velocity": 46
+    },
+    {
+      "time": 44.550088,
+      "track": "horns",
+      "kind": "on",
+      "note": 59,
+      "velocity": 50
+    },
+    {
+      "time": 44.552388,
+      "track": "horns",
+      "kind": "on",
+      "note": 62,
+      "velocity": 47
+    },
+    {
+      "time": 44.666889,
+      "track": "harp",
+      "kind": "on",
+      "note": 55,
+      "velocity": 48
+    },
+    {
+      "time": 45.037468,
+      "track": "horns",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 45.087483,
+      "track": "horns",
+      "kind": "on",
+      "note": 66,
+      "velocity": 56
+    },
+    {
+      "time": 45.134604,
+      "track": "harp",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 45.353244,
+      "track": "harp",
+      "kind": "on",
+      "note": 67,
+      "velocity": 44
+    },
+    {
+      "time": 45.516889,
+      "track": "harp",
+      "kind": "off",
+      "note": 55
+    },
+    {
+      "time": 45.683643,
+      "track": "horns",
+      "kind": "off",
+      "note": 66
+    },
+    {
+      "time": 45.746867,
+      "track": "horns",
+      "kind": "on",
+      "note": 62,
+      "velocity": 56
+    },
+    {
+      "time": 46.030191,
+      "track": "harp",
+      "kind": "on",
+      "note": 71,
+      "velocity": 37
+    },
+    {
+      "time": 46.203244,
+      "track": "harp",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 46.707835,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 48
+    },
+    {
+      "time": 46.880191,
+      "track": "harp",
+      "kind": "off",
+      "note": 71
+    },
+    {
+      "time": 46.939187,
+      "track": "horns",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 47.395458,
+      "track": "harp",
+      "kind": "on",
+      "note": 79,
+      "velocity": 42
+    },
+    {
+      "time": 47.557835,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 47.824876,
+      "track": "horns",
+      "kind": "off",
+      "note": 55
+    },
+    {
+      "time": 47.830088,
+      "track": "horns",
+      "kind": "off",
+      "note": 59
+    },
+    {
+      "time": 47.832388,
+      "track": "horns",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 47.872686,
+      "track": "strings",
+      "kind": "off",
+      "note": 55
+    },
+    {
+      "time": 47.88662,
+      "track": "strings",
+      "kind": "off",
+      "note": 59
+    },
+    {
+      "time": 47.892836,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 47.902318,
+      "track": "cello",
+      "kind": "off",
+      "note": 43
+    },
+    {
+      "time": 47.91074,
+      "track": "strings",
+      "kind": "off",
+      "note": 67
+    },
+    {
+      "time": 47.912569,
+      "track": "bass",
+      "kind": "off",
+      "note": 31
+    },
+    {
+      "time": 47.993339,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 53
+    },
+    {
+      "time": 48.013997,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 51
+    },
+    {
+      "time": 48.018759,
+      "track": "strings",
+      "kind": "on",
+      "note": 66,
+      "velocity": 52
+    },
+    {
+      "time": 48.019904,
+      "track": "cello",
+      "kind": "on",
+      "note": 50,
+      "velocity": 47
+    },
+    {
+      "time": 48.023381,
+      "track": "strings",
+      "kind": "on",
+      "note": 69,
+      "velocity": 53
+    },
+    {
+      "time": 48.037521,
+      "track": "bass",
+      "kind": "on",
+      "note": 38,
+      "velocity": 42
+    },
+    {
+      "time": 48.042874,
+      "track": "horns",
+      "kind": "on",
+      "note": 62,
+      "velocity": 49
+    },
+    {
+      "time": 48.055187,
+      "track": "horns",
+      "kind": "on",
+      "note": 62,
+      "velocity": 50
+    },
+    {
+      "time": 48.057859,
+      "track": "horns",
+      "kind": "on",
+      "note": 66,
+      "velocity": 46
+    },
+    {
+      "time": 48.170009,
+      "track": "harp",
+      "kind": "on",
+      "note": 62,
+      "velocity": 45
+    },
+    {
+      "time": 48.245458,
+      "track": "harp",
+      "kind": "off",
+      "note": 79
+    },
+    {
+      "time": 48.842592,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 39
+    },
+    {
+      "time": 49.020009,
+      "track": "harp",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 49.529643,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 37
+    },
+    {
+      "time": 49.692592,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 50.20599,
+      "track": "harp",
+      "kind": "on",
+      "note": 78,
+      "velocity": 48
+    },
+    {
+      "time": 50.379643,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 50.883185,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 41
+    },
+    {
+      "time": 51.05599,
+      "track": "harp",
+      "kind": "off",
+      "note": 78
+    },
+    {
+      "time": 51.322874,
+      "track": "horns",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 51.335187,
+      "track": "horns",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 51.337859,
+      "track": "horns",
+      "kind": "off",
+      "note": 66
+    },
+    {
+      "time": 51.373339,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 51.393997,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 51.398759,
+      "track": "strings",
+      "kind": "off",
+      "note": 66
+    },
+    {
+      "time": 51.399904,
+      "track": "cello",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 51.403381,
+      "track": "strings",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 51.417521,
+      "track": "bass",
+      "kind": "off",
+      "note": 38
+    },
+    {
+      "time": 51.498821,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 53
+    },
+    {
+      "time": 51.5052,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 51
+    },
+    {
+      "time": 51.514195,
+      "track": "strings",
+      "kind": "on",
+      "note": 64,
+      "velocity": 52
+    },
+    {
+      "time": 51.514221,
+      "track": "cello",
+      "kind": "on",
+      "note": 45,
+      "velocity": 47
+    },
+    {
+      "time": 51.534177,
+      "track": "strings",
+      "kind": "on",
+      "note": 69,
+      "velocity": 50
+    },
+    {
+      "time": 51.535439,
+      "track": "bass",
+      "kind": "on",
+      "note": 33,
+      "velocity": 41
+    },
+    {
+      "time": 51.544603,
+      "track": "horns",
+      "kind": "on",
+      "note": 57,
+      "velocity": 45
+    },
+    {
+      "time": 51.553886,
+      "track": "horns",
+      "kind": "on",
+      "note": 62,
+      "velocity": 49
+    },
+    {
+      "time": 51.555968,
+      "track": "horns",
+      "kind": "on",
+      "note": 64,
+      "velocity": 45
+    },
+    {
+      "time": 51.67154,
+      "track": "harp",
+      "kind": "on",
+      "note": 57,
+      "velocity": 48
+    },
+    {
+      "time": 51.733185,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 52.346729,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 43
+    },
+    {
+      "time": 52.52154,
+      "track": "harp",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 53.029511,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 41
+    },
+    {
+      "time": 53.196729,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 53.714028,
+      "track": "harp",
+      "kind": "on",
+      "note": 76,
+      "velocity": 47
+    },
+    {
+      "time": 53.879511,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 54.395278,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 45
+    },
+    {
+      "time": 54.564028,
+      "track": "harp",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 55.075419,
+      "track": "harp",
+      "kind": "on",
+      "note": 86,
+      "velocity": 37
+    },
+    {
+      "time": 55.245278,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 55.336603,
+      "track": "horns",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 55.345886,
+      "track": "horns",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 55.347968,
+      "track": "horns",
+      "kind": "off",
+      "note": 64
+    },
+    {
+      "time": 55.390821,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 55.3972,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 55.406195,
+      "track": "strings",
+      "kind": "off",
+      "note": 64
+    },
+    {
+      "time": 55.406221,
+      "track": "cello",
+      "kind": "off",
+      "note": 45
+    },
+    {
+      "time": 55.426177,
+      "track": "strings",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 55.427439,
+      "track": "bass",
+      "kind": "off",
+      "note": 33
+    },
+    {
+      "time": 55.513813,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 40
+    },
+    {
+      "time": 55.522019,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 45
+    },
+    {
+      "time": 55.533155,
+      "track": "cello",
+      "kind": "on",
+      "note": 50,
+      "velocity": 35
+    },
+    {
+      "time": 55.536825,
+      "track": "strings",
+      "kind": "on",
+      "note": 65,
+      "velocity": 41
+    },
+    {
+      "time": 55.541815,
+      "track": "strings",
+      "kind": "on",
+      "note": 69,
+      "velocity": 41
+    },
+    {
+      "time": 55.543507,
+      "track": "bass",
+      "kind": "on",
+      "note": 38,
+      "velocity": 34
+    },
+    {
+      "time": 55.628343,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 50,
+      "velocity": 49
+    },
+    {
+      "time": 55.814557,
+      "track": "harp",
+      "kind": "on",
+      "note": 62,
+      "velocity": 44
+    },
+    {
+      "time": 55.925419,
+      "track": "harp",
+      "kind": "off",
+      "note": 86
+    },
+    {
+      "time": 56.055084,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 57,
+      "velocity": 43
+    },
+    {
+      "time": 56.321343,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 56.464679,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 62,
+      "velocity": 39
+    },
+    {
+      "time": 56.494928,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 38
+    },
+    {
+      "time": 56.664557,
+      "track": "harp",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 56.748084,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 56.893503,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 65,
+      "velocity": 51
+    },
+    {
+      "time": 57.157679,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 57.174036,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 33
+    },
+    {
+      "time": 57.314408,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 69,
+      "velocity": 40
+    },
+    {
+      "time": 57.344928,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 57.586503,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 57.739382,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 74,
+      "velocity": 40
+    },
+    {
+      "time": 57.845188,
+      "track": "harp",
+      "kind": "on",
+      "note": 77,
+      "velocity": 41
+    },
+    {
+      "time": 58.007408,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 58.024036,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 58.05,
+      "track": "celesta",
+      "kind": "on",
+      "note": 74,
+      "velocity": 47
+    },
+    {
+      "time": 58.147163,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 50,
+      "velocity": 49
+    },
+    {
+      "time": 58.432382,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 58.535108,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 39
+    },
+    {
+      "time": 58.566607,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 57,
+      "velocity": 45
+    },
+    {
+      "time": 58.695188,
+      "track": "harp",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 58.75,
+      "track": "celesta",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 58.840163,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 58.987034,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 62,
+      "velocity": 41
+    },
+    {
+      "time": 59.208784,
+      "track": "harp",
+      "kind": "on",
+      "note": 86,
+      "velocity": 36
+    },
+    {
+      "time": 59.259607,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 59.385108,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 59.416584,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 65,
+      "velocity": 49
+    },
+    {
+      "time": 59.65,
+      "track": "celesta",
+      "kind": "on",
+      "note": 77,
+      "velocity": 47
+    },
+    {
+      "time": 59.680034,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 59.881813,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 59.890019,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 59.901155,
+      "track": "cello",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 59.904825,
+      "track": "strings",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 59.909815,
+      "track": "strings",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 59.911507,
+      "track": "bass",
+      "kind": "off",
+      "note": 38
+    },
+    {
+      "time": 60.002859,
+      "track": "strings",
+      "kind": "on",
+      "note": 53,
+      "velocity": 40
+    },
+    {
+      "time": 60.006964,
+      "track": "strings",
+      "kind": "on",
+      "note": 58,
+      "velocity": 44
+    },
+    {
+      "time": 60.013438,
+      "track": "cello",
+      "kind": "on",
+      "note": 46,
+      "velocity": 36
+    },
+    {
+      "time": 60.023008,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 42
+    },
+    {
+      "time": 60.026735,
+      "track": "bass",
+      "kind": "on",
+      "note": 34,
+      "velocity": 33
+    },
+    {
+      "time": 60.026884,
+      "track": "strings",
+      "kind": "on",
+      "note": 65,
+      "velocity": 44
+    },
+    {
+      "time": 60.058784,
+      "track": "harp",
+      "kind": "off",
+      "note": 86
+    },
+    {
+      "time": 60.109584,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 60.117671,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 46,
+      "velocity": 47
+    },
+    {
+      "time": 60.300169,
+      "track": "harp",
+      "kind": "on",
+      "note": 58,
+      "velocity": 44
+    },
+    {
+      "time": 60.35,
+      "track": "celesta",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 60.540263,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 53,
+      "velocity": 44
+    },
+    {
+      "time": 60.810671,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 46
+    },
+    {
+      "time": 60.965196,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 58,
+      "velocity": 43
+    },
+    {
+      "time": 60.98642,
+      "track": "harp",
+      "kind": "on",
+      "note": 65,
+      "velocity": 40
+    },
+    {
+      "time": 61.150169,
+      "track": "harp",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 61.233263,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 53
+    },
+    {
+      "time": 61.25,
+      "track": "celesta",
+      "kind": "on",
+      "note": 81,
+      "velocity": 47
+    },
+    {
+      "time": 61.379491,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 62,
+      "velocity": 47
+    },
+    {
+      "time": 61.658196,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 61.667813,
+      "track": "harp",
+      "kind": "on",
+      "note": 70,
+      "velocity": 36
+    },
+    {
+      "time": 61.804656,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 65,
+      "velocity": 45
+    },
+    {
+      "time": 61.83642,
+      "track": "harp",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 61.95,
+      "track": "celesta",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 62.072491,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 62.225634,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 70,
+      "velocity": 43
+    },
+    {
+      "time": 62.337594,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 44
+    },
+    {
+      "time": 62.497656,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 62.517813,
+      "track": "harp",
+      "kind": "off",
+      "note": 70
+    },
+    {
+      "time": 62.640475,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 46,
+      "velocity": 48
+    },
+    {
+      "time": 62.918634,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 70
+    },
+    {
+      "time": 63.02293,
+      "track": "harp",
+      "kind": "on",
+      "note": 77,
+      "velocity": 36
+    },
+    {
+      "time": 63.058716,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 53,
+      "velocity": 43
+    },
+    {
+      "time": 63.187594,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 63.333475,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 46
+    },
+    {
+      "time": 63.475302,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 58,
+      "velocity": 41
+    },
+    {
+      "time": 63.705564,
+      "track": "harp",
+      "kind": "on",
+      "note": 82,
+      "velocity": 36
+    },
+    {
+      "time": 63.751716,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 53
+    },
+    {
+      "time": 63.87293,
+      "track": "harp",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 63.882859,
+      "track": "strings",
+      "kind": "off",
+      "note": 53
+    },
+    {
+      "time": 63.886964,
+      "track": "strings",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 63.893438,
+      "track": "cello",
+      "kind": "off",
+      "note": 46
+    },
+    {
+      "time": 63.903008,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 63.906735,
+      "track": "bass",
+      "kind": "off",
+      "note": 34
+    },
+    {
+      "time": 63.906884,
+      "track": "strings",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 64.007885,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 41
+    },
+    {
+      "time": 64.009472,
+      "track": "cello",
+      "kind": "on",
+      "note": 45,
+      "velocity": 37
+    },
+    {
+      "time": 64.01423,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 42
+    },
+    {
+      "time": 64.021198,
+      "track": "strings",
+      "kind": "on",
+      "note": 69,
+      "velocity": 42
+    },
+    {
+      "time": 64.024027,
+      "track": "bass",
+      "kind": "on",
+      "note": 33,
+      "velocity": 31
+    },
+    {
+      "time": 64.025539,
+      "track": "strings",
+      "kind": "on",
+      "note": 64,
+      "velocity": 42
+    },
+    {
+      "time": 64.113979,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 45,
+      "velocity": 46
+    },
+    {
+      "time": 64.168302,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 58
+    },
+    {
+      "time": 64.296515,
+      "track": "harp",
+      "kind": "on",
+      "note": 57,
+      "velocity": 44
+    },
+    {
+      "time": 64.536536,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 57,
+      "velocity": 43
+    },
+    {
+      "time": 64.555564,
+      "track": "harp",
+      "kind": "off",
+      "note": 82
+    },
+    {
+      "time": 64.806979,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 45
+    },
+    {
+      "time": 64.958246,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 62,
+      "velocity": 42
+    },
+    {
+      "time": 64.979061,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 38
+    },
+    {
+      "time": 65.146515,
+      "track": "harp",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 65.229536,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 65.37836,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 64,
+      "velocity": 46
+    },
+    {
+      "time": 65.651246,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 65.658364,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 32
+    },
+    {
+      "time": 65.803315,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 69,
+      "velocity": 43
+    },
+    {
+      "time": 65.829061,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 66.07136,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 64
+    },
+    {
+      "time": 66.220301,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 74,
+      "velocity": 42
+    },
+    {
+      "time": 66.339824,
+      "track": "harp",
+      "kind": "on",
+      "note": 76,
+      "velocity": 45
+    },
+    {
+      "time": 66.496315,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 66.508364,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 66.63767,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 45,
+      "velocity": 49
+    },
+    {
+      "time": 66.913301,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 67.026583,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 40
+    },
+    {
+      "time": 67.052684,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 57,
+      "velocity": 40
+    },
+    {
+      "time": 67.189824,
+      "track": "harp",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 67.33067,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 45
+    },
+    {
+      "time": 67.482947,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 62,
+      "velocity": 38
+    },
+    {
+      "time": 67.703792,
+      "track": "harp",
+      "kind": "on",
+      "note": 86,
+      "velocity": 34
+    },
+    {
+      "time": 67.745684,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 67.876583,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 67.887885,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 67.889472,
+      "track": "cello",
+      "kind": "off",
+      "note": 45
+    },
+    {
+      "time": 67.89423,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 67.901198,
+      "track": "strings",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 67.904027,
+      "track": "bass",
+      "kind": "off",
+      "note": 33
+    },
+    {
+      "time": 67.905539,
+      "track": "strings",
+      "kind": "off",
+      "note": 64
+    },
+    {
+      "time": 67.995409,
+      "track": "strings",
+      "kind": "on",
+      "note": 57,
+      "velocity": 43
+    },
+    {
+      "time": 68.007309,
+      "track": "cello",
+      "kind": "on",
+      "note": 50,
+      "velocity": 41
+    },
+    {
+      "time": 68.012914,
+      "track": "strings",
+      "kind": "on",
+      "note": 62,
+      "velocity": 42
+    },
+    {
+      "time": 68.016522,
+      "track": "strings",
+      "kind": "on",
+      "note": 65,
+      "velocity": 40
+    },
+    {
+      "time": 68.026571,
+      "track": "strings",
+      "kind": "on",
+      "note": 69,
+      "velocity": 44
+    },
+    {
+      "time": 68.031884,
+      "track": "bass",
+      "kind": "on",
+      "note": 38,
+      "velocity": 34
+    },
+    {
+      "time": 68.039286,
+      "track": "strings",
+      "kind": "on",
+      "note": 76,
+      "velocity": 44
+    },
+    {
+      "time": 68.119831,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 50,
+      "velocity": 48
+    },
+    {
+      "time": 68.175947,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 68.307355,
+      "track": "harp",
+      "kind": "on",
+      "note": 62,
+      "velocity": 41
+    },
+    {
+      "time": 68.532774,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 57,
+      "velocity": 41
+    },
+    {
+      "time": 68.553792,
+      "track": "harp",
+      "kind": "off",
+      "note": 86
+    },
+    {
+      "time": 68.812831,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 68.96346,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 62,
+      "velocity": 38
+    },
+    {
+      "time": 68.975389,
+      "track": "harp",
+      "kind": "on",
+      "note": 69,
+      "velocity": 37
+    },
+    {
+      "time": 69.157355,
+      "track": "harp",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 69.225774,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 69.377201,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 65,
+      "velocity": 48
+    },
+    {
+      "time": 69.655468,
+      "track": "harp",
+      "kind": "on",
+      "note": 74,
+      "velocity": 35
+    },
+    {
+      "time": 69.65646,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 69.792131,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 69,
+      "velocity": 41
+    },
+    {
+      "time": 69.825389,
+      "track": "harp",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 70.070201,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 70.219578,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 74,
+      "velocity": 42
+    },
+    {
+      "time": 70.343354,
+      "track": "harp",
+      "kind": "on",
+      "note": 77,
+      "velocity": 41
+    },
+    {
+      "time": 70.485131,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 70.505468,
+      "track": "harp",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 70.641945,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 50,
+      "velocity": 46
+    },
+    {
+      "time": 70.912578,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 71.020173,
+      "track": "harp",
+      "kind": "on",
+      "note": 81,
+      "velocity": 36
+    },
+    {
+      "time": 71.060902,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 57,
+      "velocity": 44
+    },
+    {
+      "time": 71.193354,
+      "track": "harp",
+      "kind": "off",
+      "note": 77
+    },
+    {
+      "time": 71.334945,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 71.479598,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 62,
+      "velocity": 41
+    },
+    {
+      "time": 71.701717,
+      "track": "harp",
+      "kind": "on",
+      "note": 86,
+      "velocity": 35
+    },
+    {
+      "time": 71.753902,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 71.870173,
+      "track": "harp",
+      "kind": "off",
+      "note": 81
+    },
+    {
+      "time": 71.90339,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 65,
+      "velocity": 46
+    },
+    {
+      "time": 72.172598,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 72.320578,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 69,
+      "velocity": 44
+    },
+    {
+      "time": 72.378336,
+      "track": "harp",
+      "kind": "on",
+      "note": 62,
+      "velocity": 45
+    },
+    {
+      "time": 72.551717,
+      "track": "harp",
+      "kind": "off",
+      "note": 86
+    },
+    {
+      "time": 72.59639,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 72.747981,
+      "track": "pizzicato",
+      "kind": "on",
+      "note": 74,
+      "velocity": 39
+    },
+    {
+      "time": 73.013578,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 73.075409,
+      "track": "strings",
+      "kind": "off",
+      "note": 57
+    },
+    {
+      "time": 73.087309,
+      "track": "cello",
+      "kind": "off",
+      "note": 50
+    },
+    {
+      "time": 73.092914,
+      "track": "strings",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 73.096522,
+      "track": "strings",
+      "kind": "off",
+      "note": 65
+    },
+    {
+      "time": 73.106571,
+      "track": "strings",
+      "kind": "off",
+      "note": 69
+    },
+    {
+      "time": 73.111884,
+      "track": "bass",
+      "kind": "off",
+      "note": 38
+    },
+    {
+      "time": 73.119286,
+      "track": "strings",
+      "kind": "off",
+      "note": 76
+    },
+    {
+      "time": 73.15,
+      "track": "pizzicato",
+      "kind": "off",
+      "note": 74
+    },
+    {
+      "time": 73.15,
+      "track": "harp",
+      "kind": "off",
+      "note": 62
+    },
+    {
+      "time": 73.17,
+      "track": "strings",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "tremolo",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "cello",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "bass",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "horns",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "brass",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "harp",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "celesta",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "choir",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "flute",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "timpani",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "percussion",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    },
+    {
+      "time": 73.17,
+      "track": "pizzicato",
+      "kind": "cc",
+      "controller": 123,
+      "value": 0
+    }
+  ],
+  "envelope": [
+    [
+      0,
+      0.12
+    ],
+    [
+      0.7,
+      0.55
+    ],
+    [
+      15,
+      0.62
+    ],
+    [
+      30,
+      0.55
+    ],
+    [
+      39,
+      0.45
+    ],
+    [
+      40.032,
+      0.68
+    ],
+    [
+      52,
+      0.62
+    ],
+    [
+      55.512,
+      0.5
+    ],
+    [
+      68,
+      0.48
+    ],
+    [
+      71,
+      0.36
+    ],
+    [
+      73.2,
+      0.12
+    ]
+  ],
+  "markers": [
+    {
+      "time": 0,
+      "label": "Month windows: lyrical harp and strings"
+    },
+    {
+      "time": 40.032,
+      "label": "Travel: major-key melody and warmer horns"
+    },
+    {
+      "time": 55.512,
+      "label": "Ring Command: three playful plucked gestures"
+    },
+    {
+      "time": 70,
+      "label": "Leave space for the assembly transition"
+    }
+  ]
+}

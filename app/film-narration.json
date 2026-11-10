@@ -1,0 +1,457 @@
+{
+  "generatedAt": "2026-11-10",
+  "aiGenerated": true,
+  "voice": {
+    "id": "en-GB-SoniaNeural",
+    "label": "Sonia",
+    "language": "en-GB",
+    "gender": "female",
+    "rate": "-12%",
+    "pitch": "-8Hz"
+  },
+  "totalDuration": 244.68,
+  "chapters": [
+    {
+      "id": 0,
+      "title": "A century of possibility",
+      "text": "Before a watch could follow us around the Earth, it had to survive the world. In 1926, Rolex created the Oyster: a sealed refuge for a tiny mechanical heart. In 1931, the Perpetual rotor began turning the wearer's movement into stored energy. Then, in 1955, the GMT-Master gave travellers a second horizon: two time zones on one wrist. In 2012, the Sky-Dweller carried that story further. Beneath white gold, calibre 9001 brought two time zones together with an annual calendar called Saros. Its name evokes the great eighteen-year cycle of eclipses. Here, the celestial dance becomes machinery: a fixed wheel, an orbiting satellite, four fingers that recognise the thirty-day months. Come closer. Watch a year take shape, one extraordinary midnight at a time.",
+      "file": "/audio/prologue/narration.mp3",
+      "duration": 61.176,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 5.213,
+          "text": "Before a watch could follow us around the Earth, it had to survive the world."
+        },
+        {
+          "start": 5.213,
+          "end": 12.685,
+          "text": "In 1926, Rolex created the Oyster: a sealed refuge for a tiny mechanical heart."
+        },
+        {
+          "start": 12.685,
+          "end": 19.588,
+          "text": "In 1931, the Perpetual rotor began turning the wearer's movement into stored energy."
+        },
+        {
+          "start": 19.588,
+          "end": 28.182,
+          "text": "Then, in 1955, the GMT-Master gave travellers a second horizon: two time zones on one wrist."
+        },
+        {
+          "start": 28.182,
+          "end": 32.798,
+          "text": "In 2012, the Sky-Dweller carried that story further."
+        },
+        {
+          "start": 32.798,
+          "end": 40.923,
+          "text": "Beneath white gold, calibre 9001 brought two time zones together with an annual calendar called Saros."
+        },
+        {
+          "start": 40.923,
+          "end": 45.185,
+          "text": "Its name evokes the great eighteen-year cycle of eclipses."
+        },
+        {
+          "start": 45.185,
+          "end": 54.801,
+          "text": "Here, the celestial dance becomes machinery: a fixed wheel, an orbiting satellite, four fingers that recognise the thirty-day months."
+        },
+        {
+          "start": 54.801,
+          "end": 56.278,
+          "text": "Come closer."
+        },
+        {
+          "start": 56.278,
+          "end": 61.108,
+          "text": "Watch a year take shape, one extraordinary midnight at a time."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "The invitation",
+      "text": "Come closer. Beyond the hands, beneath the sapphire, a little universe is waiting. Tonight, we will follow its heartbeat... and watch a traveller's companion come to life.",
+      "file": "/audio/chapter-0.mp3",
+      "duration": 12.792,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 1.584,
+          "text": "Come closer."
+        },
+        {
+          "start": 1.534,
+          "end": 6.719,
+          "text": "Beyond the hands, beneath the sapphire, a little universe is waiting."
+        },
+        {
+          "start": 6.719,
+          "end": 12.766,
+          "text": "Tonight, we will follow its heartbeat... and watch a traveller's companion come to life."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Energy becomes time",
+      "text": "A sweep of the rotor winds the mainspring, storing the energy of your movement. That energy travels through the gears. The balance and its blue hairspring give the watch its rhythm.",
+      "file": "/audio/chapter-1.mp3",
+      "duration": 12.792,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 5.604,
+          "text": "A sweep of the rotor winds the mainspring, storing the energy of your movement."
+        },
+        {
+          "start": 5.554,
+          "end": 8.551,
+          "text": "That energy travels through the gears."
+        },
+        {
+          "start": 8.551,
+          "end": 12.727,
+          "text": "The balance and its blue hairspring give the watch its rhythm."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The secret of midnight",
+      "text": "April thirtieth. Midnight. And suddenly… May. Slow it down. The date ring still has thirty-one positions. The ordinary driving finger advances it every night. But tonight, a calendar tooth meets an extra driving finger. Stored energy is released. The extra finger pushes thirty to thirty-one… …then the ordinary finger finishes the jump. May first. Carried by the date ring, this little wheel rolls around a stationary wheel. One month later, it returns to the same place… facing a different way. May thirtieth. This time, the extra finger finds a gap. One ordinary step. Thirty-one. Four months get that extra step. February needs your touch, once a year.",
+      "file": "/audio/calendar-proof/narration.mp3",
+      "duration": 67.44,
+      "cues": [
+        {
+          "start": 0.25,
+          "end": 2.19,
+          "text": "April thirtieth.",
+          "shot": "midnight-surprise",
+          "fragmentId": 0
+        },
+        {
+          "start": 2.19,
+          "end": 3.445,
+          "text": "Midnight.",
+          "shot": "midnight-surprise",
+          "fragmentId": 0
+        },
+        {
+          "start": 3.445,
+          "end": 4.866,
+          "text": "And suddenly…",
+          "shot": "midnight-surprise",
+          "fragmentId": 0
+        },
+        {
+          "start": 4.866,
+          "end": 5.884,
+          "text": "May.",
+          "shot": "midnight-surprise",
+          "fragmentId": 0
+        },
+        {
+          "start": 6.31,
+          "end": 7.815,
+          "text": "Slow it down.",
+          "shot": "slow-motion-replay",
+          "fragmentId": 1
+        },
+        {
+          "start": 7.815,
+          "end": 11.38,
+          "text": "The date ring still has thirty-one positions.",
+          "shot": "slow-motion-replay",
+          "fragmentId": 1
+        },
+        {
+          "start": 11.842,
+          "end": 15.997,
+          "text": "The ordinary driving finger advances it every night.",
+          "shot": "ordinary-finger",
+          "fragmentId": 2
+        },
+        {
+          "start": 16.414,
+          "end": 21.066,
+          "text": "But tonight, a calendar tooth meets an extra driving finger.",
+          "shot": "extra-finger-reveal",
+          "fragmentId": 3
+        },
+        {
+          "start": 22.25,
+          "end": 24.789,
+          "text": "Stored energy is released.",
+          "shot": "correction-step",
+          "fragmentId": 4
+        },
+        {
+          "start": 24.789,
+          "end": 28.494,
+          "text": "The extra finger pushes thirty to thirty-one…",
+          "shot": "correction-step",
+          "fragmentId": 4
+        },
+        {
+          "start": 29.25,
+          "end": 32.659,
+          "text": "then the ordinary finger finishes the jump.",
+          "shot": "ordinary-completion",
+          "fragmentId": 5
+        },
+        {
+          "start": 32.659,
+          "end": 34.093,
+          "text": "May first.",
+          "shot": "ordinary-completion",
+          "fragmentId": 5
+        },
+        {
+          "start": 35.25,
+          "end": 40.55,
+          "text": "Carried by the date ring, this little wheel rolls around a stationary wheel.",
+          "shot": "rolling-satellite",
+          "fragmentId": 6
+        },
+        {
+          "start": 44.25,
+          "end": 49.853,
+          "text": "One month later, it returns to the same place… facing a different way.",
+          "shot": "new-orientation",
+          "fragmentId": 7
+        },
+        {
+          "start": 51.25,
+          "end": 52.949,
+          "text": "May thirtieth.",
+          "shot": "may-gap",
+          "fragmentId": 8
+        },
+        {
+          "start": 52.949,
+          "end": 56.605,
+          "text": "This time, the extra finger finds a gap.",
+          "shot": "may-gap",
+          "fragmentId": 8
+        },
+        {
+          "start": 57.25,
+          "end": 59.309,
+          "text": "One ordinary step.",
+          "shot": "may-single-step",
+          "fragmentId": 9
+        },
+        {
+          "start": 59.309,
+          "end": 60.755,
+          "text": "Thirty-one.",
+          "shot": "may-single-step",
+          "fragmentId": 9
+        },
+        {
+          "start": 61.198,
+          "end": 63.967,
+          "text": "Four months get that extra step.",
+          "shot": "watch-return",
+          "fragmentId": 10
+        },
+        {
+          "start": 63.967,
+          "end": 67.192,
+          "text": "February needs your touch, once a year.",
+          "shot": "watch-return",
+          "fragmentId": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Twelve windows. One year.",
+      "text": "Those twelve little windows tell you the month. One o’clock is January, two is February; December is at twelve. The dark window at four means April. Lift the dial: a separate month ring carries the dark sector beneath. You see its colour through the opening. A toothed section of the date ring drives this intermediate wheel, which turns the month ring. One station per month. Thirty degrees. As April thirtieth becomes May first, the dark sector leaves four and appears at five. The windows stay still; the ring moves underneath.",
+      "file": "/audio/month-windows/narration.mp3",
+      "duration": 40.032,
+      "cues": [
+        {
+          "id": 0,
+          "shot": "windows-intro",
+          "start": 0.1,
+          "end": 3.324,
+          "text": "Those twelve little windows tell you the month."
+        },
+        {
+          "id": 1,
+          "shot": "month-map",
+          "start": 3.324,
+          "end": 8.651,
+          "text": "One o’clock is January, two is February; December is at twelve."
+        },
+        {
+          "id": 2,
+          "shot": "april-window",
+          "start": 8.651,
+          "end": 11.705,
+          "text": "The dark window at four means April."
+        },
+        {
+          "id": 3,
+          "shot": "dial-lift",
+          "start": 11.705,
+          "end": 16.818,
+          "text": "Lift the dial: a separate month ring carries the dark sector beneath."
+        },
+        {
+          "id": 4,
+          "shot": "sector-through-window",
+          "start": 16.818,
+          "end": 19.503,
+          "text": "You see its colour through the opening."
+        },
+        {
+          "id": 5,
+          "shot": "drive-train",
+          "start": 19.503,
+          "end": 25.767,
+          "text": "A toothed section of the date ring drives this intermediate wheel, which turns the month ring."
+        },
+        {
+          "id": 6,
+          "shot": "monthly-station",
+          "start": 25.767,
+          "end": 27.926,
+          "text": "One station per month."
+        },
+        {
+          "id": 7,
+          "shot": "thirty-degrees",
+          "start": 27.926,
+          "end": 29.631,
+          "text": "Thirty degrees."
+        },
+        {
+          "id": 8,
+          "shot": "april-to-may",
+          "start": 29.631,
+          "end": 35.966,
+          "text": "As April thirtieth becomes May first, the dark sector leaves four and appears at five."
+        },
+        {
+          "id": 9,
+          "shot": "fixed-windows",
+          "start": 35.966,
+          "end": 39.957,
+          "text": "The windows stay still; the ring moves underneath."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Two worlds",
+      "text": "Every traveller carries two worlds. The central hands follow local time. The twenty-four-hour disc keeps a reference time, perhaps the place you call home. Change the local hour... and home stays with you.",
+      "file": "/audio/chapter-3.mp3",
+      "duration": 15.48,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 3.076,
+          "text": "Every traveller carries two worlds."
+        },
+        {
+          "start": 3.026,
+          "end": 6.108,
+          "text": "The central hands follow local time."
+        },
+        {
+          "start": 6.108,
+          "end": 11.719,
+          "text": "The twenty-four-hour disc keeps a reference time, perhaps the place you call home."
+        },
+        {
+          "start": 11.719,
+          "end": 15.449,
+          "text": "Change the local hour... and home stays with you."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Ring Command",
+      "text": "Now, turn the bezel. Calendar. Local time. Reference time. Each position selects a different function. The crown makes the adjustment. A simple gesture opens a remarkably intricate mechanical world.",
+      "file": "/audio/chapter-4.mp3",
+      "duration": 17.688,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 2.351,
+          "text": "Now, turn the bezel."
+        },
+        {
+          "start": 2.301,
+          "end": 3.59,
+          "text": "Calendar."
+        },
+        {
+          "start": 3.59,
+          "end": 5.071,
+          "text": "Local time."
+        },
+        {
+          "start": 5.071,
+          "end": 6.747,
+          "text": "Reference time."
+        },
+        {
+          "start": 6.747,
+          "end": 10.014,
+          "text": "Each position selects a different function."
+        },
+        {
+          "start": 10.014,
+          "end": 12.528,
+          "text": "The crown makes the adjustment."
+        },
+        {
+          "start": 12.528,
+          "end": 17.614,
+          "text": "A simple gesture opens a remarkably intricate mechanical world."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "A universe, assembled",
+      "text": "And now, everything finds its place. Wheels, bridges, hands, and light. A universe of tiny decisions becomes one extraordinary watch. The Sky-Dweller. Ready for wherever your story takes you next.",
+      "file": "/audio/chapter-5.mp3",
+      "duration": 17.28,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 3.274,
+          "text": "And now, everything finds its place."
+        },
+        {
+          "start": 3.224,
+          "end": 7.116,
+          "text": "Wheels, bridges, hands, and light."
+        },
+        {
+          "start": 7.116,
+          "end": 12.06,
+          "text": "A universe of tiny decisions becomes one extraordinary watch."
+        },
+        {
+          "start": 12.06,
+          "end": 13.679,
+          "text": "The Sky-Dweller."
+        },
+        {
+          "start": 13.679,
+          "end": 17.23,
+          "text": "Ready for wherever your story takes you next."
+        }
+      ]
+    }
+  ]
+}

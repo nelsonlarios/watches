@@ -1,0 +1,223 @@
+[
+  {
+    "id": 0,
+    "shot": "midnight-surprise",
+    "start": 0.0,
+    "end": 5.0,
+    "text": "April thirtieth. Midnight. And suddenly\u2026 May.",
+    "rawFile": "/audio/calendar-proof/fragments/00-midnight-surprise.mp3",
+    "rawDuration": 5.76,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 2.040341,
+        "text": "April thirtieth."
+      },
+      {
+        "start": 2.040341,
+        "end": 3.2954547,
+        "text": "Midnight."
+      },
+      {
+        "start": 3.2954547,
+        "end": 4.7159093,
+        "text": "And suddenly\u2026"
+      },
+      {
+        "start": 4.7159094,
+        "end": 5.7335231,
+        "text": "May."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "shot": "slow-motion-replay",
+    "start": 5.0,
+    "end": 11.0,
+    "text": "Slow it down. The date ring still has thirty-one positions.",
+    "rawFile": "/audio/calendar-proof/fragments/01-slow-motion-replay.mp3",
+    "rawDuration": 5.232,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 1.6051137,
+        "text": "Slow it down."
+      },
+      {
+        "start": 1.6051137,
+        "end": 5.1704548,
+        "text": "The date ring still has thirty-one positions."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "shot": "ordinary-finger",
+    "start": 11.0,
+    "end": 16.0,
+    "text": "The ordinary driving finger advances it every night.",
+    "rawFile": "/audio/calendar-proof/fragments/02-ordinary-finger.mp3",
+    "rawDuration": 4.272,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 4.2545456999999995,
+        "text": "The ordinary driving finger advances it every night."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "shot": "extra-finger-reveal",
+    "start": 16.0,
+    "end": 22.0,
+    "text": "But tonight, a calendar tooth meets an extra driving finger.",
+    "rawFile": "/audio/calendar-proof/fragments/03-extra-finger-reveal.mp3",
+    "rawDuration": 4.752,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 4.7517048,
+        "text": "But tonight, a calendar tooth meets an extra driving finger."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "shot": "correction-step",
+    "start": 22.0,
+    "end": 29.0,
+    "text": "Stored energy is released. The extra finger pushes thirty to thirty-one\u2026",
+    "rawFile": "/audio/calendar-proof/fragments/04-correction-step.mp3",
+    "rawDuration": 6.36,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 2.6386365,
+        "text": "Stored energy is released."
+      },
+      {
+        "start": 2.6386365,
+        "end": 6.3443185,
+        "text": "The extra finger pushes thirty to thirty-one\u2026"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "shot": "ordinary-completion",
+    "start": 29.0,
+    "end": 35.0,
+    "text": "\u2026then the ordinary finger finishes the jump. May first.",
+    "rawFile": "/audio/calendar-proof/fragments/05-ordinary-completion.mp3",
+    "rawDuration": 4.992,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 3.5085229,
+        "text": "then the ordinary finger finishes the jump."
+      },
+      {
+        "start": 3.5085229,
+        "end": 4.943182,
+        "text": "May first."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "shot": "rolling-satellite",
+    "start": 35.0,
+    "end": 44.0,
+    "text": "Carried by the date ring, this little wheel rolls around a stationary wheel.",
+    "rawFile": "/audio/calendar-proof/fragments/06-rolling-satellite.mp3",
+    "rawDuration": 5.4,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 5.4,
+        "text": "Carried by the date ring, this little wheel rolls around a stationary wheel."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "shot": "new-orientation",
+    "start": 44.0,
+    "end": 51.0,
+    "text": "One month later, it returns to the same place\u2026 facing a different way.",
+    "rawFile": "/audio/calendar-proof/fragments/07-new-orientation.mp3",
+    "rawDuration": 5.712,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 5.703409499999999,
+        "text": "One month later, it returns to the same place\u2026 facing a different way."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "shot": "may-gap",
+    "start": 51.0,
+    "end": 57.0,
+    "text": "May thirtieth. This time, the extra finger finds a gap.",
+    "rawFile": "/audio/calendar-proof/fragments/08-may-gap.mp3",
+    "rawDuration": 5.52,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 1.7988637,
+        "text": "May thirtieth."
+      },
+      {
+        "start": 1.7988637,
+        "end": 5.454545700000001,
+        "text": "This time, the extra finger finds a gap."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "shot": "may-single-step",
+    "start": 57.0,
+    "end": 60.0,
+    "text": "One ordinary step. Thirty-one.",
+    "rawFile": "/audio/calendar-proof/fragments/09-may-single-step.mp3",
+    "rawDuration": 3.648,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 2.159091,
+        "text": "One ordinary step."
+      },
+      {
+        "start": 2.159091,
+        "end": 3.6045456,
+        "text": "Thirty-one."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "shot": "watch-return",
+    "start": 60.0,
+    "end": 66.0,
+    "text": "Four months get that extra step. February needs your touch, once a year.",
+    "rawFile": "/audio/calendar-proof/fragments/10-watch-return.mp3",
+    "rawDuration": 6.144,
+    "rawCues": [
+      {
+        "start": 0.1,
+        "end": 2.8693183,
+        "text": "Four months get that extra step."
+      },
+      {
+        "start": 2.8693183,
+        "end": 6.0937503,
+        "text": "February needs your touch, once a year."
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "title": "The twelve month windows",
+  "text": "Those twelve little windows tell you the month. One o\u2019clock is January, two is February; December is at twelve. The dark window at four means April. Lift the dial: a separate month ring carries the dark sector beneath. You see its colour through the opening. A toothed section of the date ring drives this intermediate wheel, which turns the month ring. One station per month. Thirty degrees. As April thirtieth becomes May first, the dark sector leaves four and appears at five. The windows stay still; the ring moves underneath.",
+  "file": "/audio/month-windows/narration.mp3",
+  "duration": 40.032,
+  "provider": "Microsoft Edge online neural speech via edge-tts 7.3.1",
+  "aiGenerated": true,
+  "voice": {
+    "id": "en-GB-SoniaNeural",
+    "label": "Sonia",
+    "language": "en-GB",
+    "gender": "female",
+    "rate": "-12%",
+    "pitch": "-8Hz"
+  },
+  "cues": [
+    {
+      "id": 0,
+      "shot": "windows-intro",
+      "start": 0.1,
+      "end": 3.324,
+      "text": "Those twelve little windows tell you the month."
+    },
+    {
+      "id": 1,
+      "shot": "month-map",
+      "start": 3.324,
+      "end": 8.651,
+      "text": "One o\u2019clock is January, two is February; December is at twelve."
+    },
+    {
+      "id": 2,
+      "shot": "april-window",
+      "start": 8.651,
+      "end": 11.705,
+      "text": "The dark window at four means April."
+    },
+    {
+      "id": 3,
+      "shot": "dial-lift",
+      "start": 11.705,
+      "end": 16.818,
+      "text": "Lift the dial: a separate month ring carries the dark sector beneath."
+    },
+    {
+      "id": 4,
+      "shot": "sector-through-window",
+      "start": 16.818,
+      "end": 19.503,
+      "text": "You see its colour through the opening."
+    },
+    {
+      "id": 5,
+      "shot": "drive-train",
+      "start": 19.503,
+      "end": 25.767,
+      "text": "A toothed section of the date ring drives this intermediate wheel, which turns the month ring."
+    },
+    {
+      "id": 6,
+      "shot": "monthly-station",
+      "start": 25.767,
+      "end": 27.926,
+      "text": "One station per month."
+    },
+    {
+      "id": 7,
+      "shot": "thirty-degrees",
+      "start": 27.926,
+      "end": 29.631,
+      "text": "Thirty degrees."
+    },
+    {
+      "id": 8,
+      "shot": "april-to-may",
+      "start": 29.631,
+      "end": 35.966,
+      "text": "As April thirtieth becomes May first, the dark sector leaves four and appears at five."
+    },
+    {
+      "id": 9,
+      "shot": "fixed-windows",
+      "start": 35.966,
+      "end": 39.957,
+      "text": "The windows stay still; the ring moves underneath."
+    }
+  ]
+}

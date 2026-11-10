@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "Saros — A little universe on your wrist",
+  title: "Saros — A world on your wrist",
   description:
-    "A cinematic journey inside the Rolex Sky-Dweller. Discover its heartbeat, celestial calendar, and the art of travelling through time.",
+    "A cinematic 3D journey into the Rolex Sky-Dweller. Explore the Saros annual calendar, dual time zones and Ring Command with an AI-narrated story.",
   icons: { icon: "/favicon.svg" },
 };
 export default function RootLayout({

@@ -1,44 +1,45 @@
-# Saros — The Traveller’s Little Universe
+# Saros — A world on your wrist
 
-A cinematic, narrated web prototype inspired by the Rolex Sky-Dweller. Built with the Sites Vinext starter, React, and Three.js.
+An eight-act, **4:04.680** cinematic3D watch story. Original procedural models, AI female narration, researched history, a guided Saros calendar, an actual perforated month display, and an original sampled orchestral score. **No paid assets. No photographs are displayed as film scenes.**
 
-## Experience
+The baseline is the **2012 Rolex Sky-Dweller326939 / calibre9001**, white gold, ivory Roman dial, Oyster bracelet. The exterior is a reconstruction guided by Rolex images, not authenticated factory CAD. Typography, surface profiles and concealed geometry remain approximations.
 
-- A six-chapter film with 93.456 seconds of generated female narration, synchronized captions, seeking, pause/resume, and replay.
-- A procedural Everose and blue-green watch study, exploded assembly, patent-inspired annual-calendar cutaway, local/reference time demonstrations, Ring Command selection and crown interaction, and a luminous night reveal.
-- Responsive desktop/mobile composition, drag rotation, keyboard controls, reduced ambient motion, transcript, sources, and three voice auditions.
-- Local MP3 assets: no speech API call or browser voice installation is required during playback. Narration and the procedural ambient score start after the visitor presses play.
-
-## Run
+## Development and checks
 
 ```sh
-npm install
 npm run dev -- --host 127.0.0.1 --port 5198
-```
-
-```sh
 npx tsc --noEmit
-npm run build
+node scripts/verification/calendar.mjs
+node scripts/verification/timeline.mjs
 ```
 
-## Main files
+Existing owner-private Site identity remains in `.openai/hosting.json`. The Sites source helper builds and packages the exact committed source.
 
-- `app/experience.tsx`: guided playback owner, media clock, captions, chapter controls, time/calendar demonstrations.
-- `app/watch-scene.tsx`: procedural geometry, physically lit materials, assembly transforms, orbiting calendar schematic, pointer rotation, resource disposal.
-- `app/globals.css`: composition, responsive layout, typography, and controls.
-- `public/audio/narration.json`: generated narration metadata, scripts, actual durations, and sentence cues.
-- `scripts/audio/generate.py`: reproducible narration generator; dependencies in the adjacent requirements file.
+## The film
 
-## Accuracy boundary
+1. Historical prologue:1926Oyster,1931Perpetual,1955GMT-Master,2012Sky-Dweller; astronomy supplies the Saros name, not an eclipse-prediction function.
+2. Invitation into the watch.
+3. Energy and rhythm.
+4. April30→May1: correction30→31, then ordinary31→1. The same assembly rolls continuously to May30; a gap gives only the normal advance.
+5. Month windows: twelve genuine cutouts in the same dial, a separate contrasting sector beneath, the date-sector/intermediate/month-ring connection, net30° monthly travel, and the visible April→May result.
+6. Independent local hour, with reference time retained.
+7. Ring Command function selection.
+8. Reassembly and orchestral resolution.
 
-The exterior and internal geometry are illustrative reconstructions. This is not an authenticated calibre 9002 CAD assembly or a workshop assembly guide. The Saros schematic uses the example 123/36 tooth relationship from Rolex patent EP1596261B1; it does not claim those are production 9002 tooth counts. The fixed gear remains stationary, and satellite rotation follows the external epicyclic relationship. Calendar demonstrations distinguish 30- and 31-day months; February requires annual correction. Local-hour changes preserve reference time; forward midnight crossings advance the date.
+The main historical imagery consists of abstract principles, not invented replicas of historical watches. Month-drive tooth profiles/counts and exact placement are illustrative. The net ring-travel shot is separated from the dated visible indication; production step staging is not asserted. The final travel/setting/assembly chapters retain May1 after the month-display lesson.
 
-Research was prepared separately in `../research/sky-dweller-feasibility.md`. Official references are linked in the experience’s “Behind the story” dialog. The project is independent and is not endorsed by Rolex.
+## Precision
 
-## Voice
+Rolex establishes four production Saros fingers for April, June, September and November. The early patent's123/36 rolling ratio, combined with four program positions, is a derived teaching configuration. It is not proof of production tooth counts. The extra step is calculated from gear orientation/contact, not a month-length lookup. February needs correction onMarch1. Contact paths, spring forces, clearances and expanded timing are not a factory collision model.
 
-Microsoft neural speech, `en-GB-SoniaNeural`, generated with edge-tts 7.3.1 at -12% rate and -8Hz pitch. All nine MP3s were decoded and checked for a non-silent, non-clipped signal. Listening quality and the desired sensual character remain subjective review points.
+Sources and boundaries are available in the film's About panel and in `docs/`.
 
-## Verification
+## Audio and music
 
-TypeScript check and production build pass. Browser checks covered a full six-chapter playback to completion, caption/audio alignment, assembly separation, both month-boundary demonstrations, independent local time, bezel selection and crown adjustments, end seeking, and desktop/mobile layouts. Audio generation checks verified actual durations and caption bounds. The browser console showed no application errors during these checks.
+Microsoft Sonia AI female voice, British English,−12% rate and−8Hz pitch. New history and month passages are61.176s and40.032s; the calendar is67.440s. Generated sentence cues drive captions and picture conformance. `scripts/audio/compose-film.mjs` combines all eight acts into the active manifest.
+
+Four original orchestral cues cover the whole244.680-second film: heritage86.760s, calendar67.440s, voyage73.200s, assembly17.280s. Music is synchronized to the narration clock across chapter transitions and seeks. Speech gains are calibrated against Sonia; pauses allow the music to rise. The May-gap passage at51–57s of the calendar cue is silent.
+
+The composition uses locally available sampled orchestral instruments, rendered through Apple AVAudioEngine. Only original rendered audio is served; sample banks are not redistributed. MIDI/event scores, render tools, credits and loudness measurements are retained in `scripts/audio/music/` and `public/audio/score/score-manifest.json`.
+
+Gentilis font data is openly licensed; SIL licence included. Reference images are modelling/provenance aids. Rolex names and marks belong to their owners. Independent creative/educational study; no affiliation or endorsement.

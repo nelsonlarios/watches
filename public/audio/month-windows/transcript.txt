@@ -1,0 +1,34 @@
+THE TWELVE MONTH WINDOWS
+AI-generated female narration · Sonia
+
+Those twelve little windows tell you the month. One o’clock is January, two is February; December is at twelve. The dark window at four means April. Lift the dial: a separate month ring carries the dark sector beneath. You see its colour through the opening. A toothed section of the date ring drives this intermediate wheel, which turns the month ring. One station per month. Thirty degrees. As April thirtieth becomes May first, the dark sector leaves four and appears at five. The windows stay still; the ring moves underneath.
+
+0.100–3.324s · windows-intro
+Those twelve little windows tell you the month.
+
+3.324–8.651s · month-map
+One o’clock is January, two is February; December is at twelve.
+
+8.651–11.705s · april-window
+The dark window at four means April.
+
+11.705–16.818s · dial-lift
+Lift the dial: a separate month ring carries the dark sector beneath.
+
+16.818–19.503s · sector-through-window
+You see its colour through the opening.
+
+19.503–25.767s · drive-train
+A toothed section of the date ring drives this intermediate wheel, which turns the month ring.
+
+25.767–27.926s · monthly-station
+One station per month.
+
+27.926–29.631s · thirty-degrees
+Thirty degrees.
+
+29.631–35.966s · april-to-may
+As April thirtieth becomes May first, the dark sector leaves four and appears at five.
+
+35.966–39.957s · fixed-windows
+The windows stay still; the ring moves underneath.
