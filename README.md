@@ -17,6 +17,12 @@ node scripts/verification/media.mjs
 
 Existing owner-private Site identity remains in `.openai/hosting.json`. The Sites source helper builds and packages the exact committed source.
 
+## Vercel deployment
+
+`vercel.json` selects Next.js, runs `npm run build:vercel` (`next build`), and uses `.next`. The default `npm run build` produces the separate Vinext / Cloudflare Workers output used by Sites. Node.js is pinned to24.x in both package manifests.
+
+Deploy the repository root containing `package.json` and `vercel.json`; remove any dashboard overrides that still select the Vinext build or its `dist` output. No environment variables are required by the watch film. Commit and push the current source before redeploying: a redeploy of an older commit cannot include the latest film or deployment configuration.
+
 ## The film
 
 1. Historical prologue:1926Oyster,1931Perpetual,1955GMT-Master,2012Sky-Dweller; astronomy supplies the Saros name, not an eclipse-prediction function.
