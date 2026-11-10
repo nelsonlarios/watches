@@ -12,6 +12,7 @@ npx tsc --noEmit
 node scripts/verification/calendar.mjs
 node scripts/verification/timeline.mjs
 node scripts/verification/assembly.mjs
+node scripts/verification/media.mjs
 ```
 
 Existing owner-private Site identity remains in `.openai/hosting.json`. The Sites source helper builds and packages the exact committed source.
@@ -39,7 +40,7 @@ Sources and boundaries are available in the film's About panel and in `docs/`.
 
 Microsoft Sonia AI female voice, British English,−12% rate and−8Hz pitch. New history and month passages are61.176s and40.032s; the calendar is67.440s. Generated sentence cues drive captions and picture conformance. `scripts/audio/compose-film.mjs` combines all eight acts into the active manifest.
 
-Four original orchestral cues cover the whole263.400-second film: heritage86.760s, calendar67.440s, voyage73.200s, assembly36.000s. Music is synchronized to the narration clock across chapter transitions and seeks. Speech gains are calibrated against Sonia; pauses allow the music to rise. The May-gap passage at51–57s of the calendar cue is silent.
+Four original orchestral cues cover the whole263.400-second film: heritage86.760s, calendar67.440s, voyage73.200s, assembly36.000s. Complete audio files are cached as local Blob resources so private-host HTTP seek restrictions cannot restart the music. Music is synchronized to the narration clock across chapter transitions and seeks. Speech gains are calibrated against Sonia; pauses allow the music to rise. The May-gap passage at51–57s of the calendar cue is silent.
 
 The composition uses locally available sampled orchestral instruments, rendered through Apple AVAudioEngine. Only original rendered audio is served; sample banks are not redistributed. MIDI/event scores, render tools, credits and loudness measurements are retained in `scripts/audio/music/` and `public/audio/score/score-manifest.json`.
 

@@ -98,6 +98,16 @@
   opacity: 1;
   transform: none;
 }
+.cinema-audio-loading {
+  position: absolute;
+  bottom: 150px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  color: #dcc69d;
+}
 .cinema-assembly-beauty > p {
   font:
     italic 30px "Cormorant Garamond",

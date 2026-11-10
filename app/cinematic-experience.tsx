@@ -25,6 +25,7 @@ import {
 import CinematicScene, { type CinemaState } from "./cinematic-scene";
 import { calendarFrame, smooth } from "./mechanics/cinematic-timeline";
 import film from "./film-narration.json";
+import { createFilmMediaCache, waitForFilmMetadata } from "./film-media";
 import calendarVoice from "./calendar-timing.json";
 import { sources } from "./research-sources";
 import {
@@ -139,6 +140,7 @@ export default function CinematicExperience() {
     [menu, setMenu] = useState(false),
     [info, setInfo] = useState(false),
     [ready, setReady] = useState(false),
+    [audioLoading, setAudioLoading] = useState(false),
     [error, setError] = useState(""),
     [localOffset, setLocalOffset] = useState(0),
     [selector, setSelector] = useState(0),
@@ -154,9 +156,13 @@ export default function CinematicExperience() {
     request = useRef(0),
     actRef = useRef(0),
     playingRef = useRef(false),
+    mutedRef = useRef(false),
     music = useRef<HTMLAudioElement>(null),
     musicEnabled = useRef(true),
     lastMusicCheck = useRef(0),
+    mediaCache = useRef<ReturnType<typeof createFilmMediaCache> | null>(null),
+    mediaAct = useRef<number | null>(null),
+    mediaRequest = useRef<AbortController | null>(null),
     state = useRef<CinemaState>({
       act: 0,
       phase: 0,
@@ -185,6 +191,7 @@ export default function CinematicExperience() {
     reset,
   };
   musicEnabled.current = score;
+  mutedRef.current = muted;
   actRef.current = act;
   playingRef.current = playing;
   const onReady = useCallback(() => setReady(true), []),
@@ -222,7 +229,7 @@ export default function CinematicExperience() {
             lastMusicCheck.current = now;
             const expected = scorePosition(index, at);
             if (
-              m.getAttribute("src") === expected.file &&
+              m.dataset.filmSource === expected.file &&
               Math.abs(m.currentTime - expected.time) > 0.25
             )
               m.currentTime = expected.time;
@@ -242,14 +249,33 @@ export default function CinematicExperience() {
     if (info) dialog.current?.showModal();
     else dialog.current?.close();
   }, [info]);
-  useEffect(
-    () => () => {
-      request.current++;
-      a.current?.pause();
-      music.current?.pause();
-    },
-    [],
-  );
+  useEffect(() => {
+    const cache = createFilmMediaCache(),
+      requestOwner = request,
+      voiceElement = a.current,
+      scoreElement = music.current;
+    mediaCache.current = cache;
+    return () => {
+      requestOwner.current++;
+      mediaRequest.current?.abort();
+      voiceElement?.pause();
+      scoreElement?.pause();
+      cache.dispose();
+      if (mediaCache.current === cache) mediaCache.current = null;
+    };
+  }, []);
+  useEffect(() => {
+    const cache = mediaCache.current;
+    if (!cache) return;
+    const next = Math.min(LAST_ACT, act + 1);
+    // Warm the next voice and musical cue without creating extra players.
+    void Promise.allSettled([
+      cache.get(film.chapters[act].file),
+      cache.get(scorePosition(act, 0).file),
+      cache.get(film.chapters[next].file),
+      cache.get(scorePosition(next, 0).file),
+    ]);
+  }, [act]);
   function scorePosition(index: number, at: number) {
     const start =
       index <= ACT.energy
@@ -272,35 +298,13 @@ export default function CinematicExperience() {
       time: offsets[index] - offsets[start] + at,
     };
   }
-  function startScore(index: number, at: number, token: number) {
-    const m = music.current;
-    if (!m) return;
-    const expected = scorePosition(index, at);
-    if (m.getAttribute("src") !== expected.file) {
-      m.src = expected.file;
-      m.currentTime = expected.time;
-    } else if (Math.abs(m.currentTime - expected.time) > 0.15)
-      m.currentTime = expected.time;
-    m.muted = muted;
-    m.volume = musicEnabled.current
-      ? index <= ACT.energy
-        ? 0.4
-        : index === ACT.assembly
-          ? 0.285
-          : 0.32
-      : 0;
-    void m
-      .play()
-      .then(() => {
-        if (token !== request.current && !playingRef.current) m.pause();
-      })
-      .catch(() => {});
-  }
   function pause() {
     request.current++;
+    mediaRequest.current?.abort();
+    setAudioLoading(false);
     music.current?.pause();
     if (a.current) {
-      setTime(a.current.currentTime);
+      if (mediaAct.current === actRef.current) setTime(a.current.currentTime);
       a.current.pause();
     }
     if (playingRef.current) {
@@ -315,10 +319,19 @@ export default function CinematicExperience() {
     playingRef.current = false;
   }
   async function play(index = actRef.current, at = time) {
-    const audio = a.current;
-    if (!audio) return;
+    const audio = a.current,
+      m = music.current,
+      cache = mediaCache.current;
+    if (!audio || !m || !cache) return;
     const token = ++request.current;
+    mediaRequest.current?.abort();
+    const preparation = new AbortController();
+    mediaRequest.current = preparation;
     audio.pause();
+    m.pause();
+    playingRef.current = false;
+    setPlaying(false);
+    setAudioLoading(true);
     setError("");
     setMenu(false);
     setStarted(true);
@@ -326,21 +339,52 @@ export default function CinematicExperience() {
     setAct(index);
     actRef.current = index;
     setTime(at);
-    if (audio.getAttribute("src") !== film.chapters[index].file)
-      audio.src = film.chapters[index].file;
-    audio.currentTime = at;
-    audio.muted = muted;
     try {
-      await audio.play();
+      const expected = scorePosition(index, at);
+      const [voiceURL, musicURL] = await Promise.all([
+        cache.get(film.chapters[index].file),
+        cache.get(expected.file),
+      ]);
       if (token !== request.current) return;
+      if (audio.getAttribute("src") !== voiceURL) {
+        audio.src = voiceURL;
+        audio.load();
+      }
+      if (m.getAttribute("src") !== musicURL) {
+        m.src = musicURL;
+        m.load();
+      }
+      await Promise.all([
+        waitForFilmMetadata(audio, preparation.signal),
+        waitForFilmMetadata(m, preparation.signal),
+      ]);
+      if (token !== request.current) return;
+      mediaAct.current = index;
+      audio.dataset.filmSource = film.chapters[index].file;
+      m.dataset.filmSource = expected.file;
+      audio.currentTime = at;
+      m.currentTime = expected.time;
+      audio.muted = m.muted = mutedRef.current;
+      m.volume = musicEnabled.current
+        ? index <= ACT.energy
+          ? 0.4
+          : index === ACT.assembly
+            ? 0.285
+            : 0.32
+        : 0;
+      await Promise.all([audio.play(), m.play()]);
+      if (token !== request.current) return;
+      setAudioLoading(false);
       setPlaying(true);
       playingRef.current = true;
-      startScore(index, at, token);
     } catch {
       if (token !== request.current) return;
+      audio.pause();
+      m.pause();
+      setAudioLoading(false);
       setPlaying(false);
       playingRef.current = false;
-      setError("Tap play to start the narration.");
+      setError("Audio could not start. Tap play to try again.");
     }
   }
   function jumpTo(index: number, at = 0) {
@@ -354,13 +398,10 @@ export default function CinematicExperience() {
     setLocalOffset(0);
     setSelector(0);
     setSeparation(0.68);
-    if (a.current) {
-      a.current.src = film.chapters[index].file;
-      a.current.currentTime = at;
-    }
+    mediaAct.current = null;
   }
   function toggle() {
-    if (playing) pause();
+    if (playing || audioLoading) pause();
     else void play(finished ? 0 : act, finished ? 0 : time);
   }
   function ended() {
@@ -743,7 +784,13 @@ export default function CinematicExperience() {
             className="cinema-transport"
             disabled={!ready}
             aria-label={
-              playing ? "Pause film" : finished ? "Replay film" : "Play film"
+              audioLoading
+                ? "Cancel audio preparation"
+                : playing
+                  ? "Pause film"
+                  : finished
+                    ? "Replay film"
+                    : "Play film"
             }
             onClick={toggle}
           >
@@ -826,6 +873,11 @@ export default function CinematicExperience() {
           <i />
           Preparing the little universe
         </div>
+      )}
+      {audioLoading && (
+        <p className="cinema-audio-loading" role="status">
+          Preparing the soundtrack…
+        </p>
       )}
       {error && (
         <div className="cinema-error" role="status">
