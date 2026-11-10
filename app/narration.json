@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-11-10",
+  "provider": "Microsoft Edge online neural speech via edge-tts 7.3.1",
+  "voice": {
+    "id": "en-GB-SoniaNeural",
+    "label": "Sonia",
+    "language": "en-GB",
+    "gender": "female",
+    "rate": "-12%",
+    "pitch": "-8Hz"
+  },
+  "direction": "Warm, low, intimate storytelling; softly paced and curious.",
+  "aiGenerated": true,
+  "totalDuration": 93.456,
+  "chapters": [
+    {
+      "id": 0,
+      "title": "The awakening",
+      "text": "Come closer. Beyond the hands, beneath the sapphire, a little universe is waiting. Tonight, we will follow its heartbeat... and watch a traveller's companion come to life.",
+      "file": "/audio/chapter-0.mp3",
+      "duration": 12.792,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 1.584,
+          "text": "Come closer."
+        },
+        {
+          "start": 1.534,
+          "end": 6.719,
+          "text": "Beyond the hands, beneath the sapphire, a little universe is waiting."
+        },
+        {
+          "start": 6.719,
+          "end": 12.766,
+          "text": "Tonight, we will follow its heartbeat... and watch a traveller's companion come to life."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "A living heartbeat",
+      "text": "A sweep of the rotor winds the mainspring, storing the energy of your movement. That energy travels through the gears. The balance and its blue hairspring give the watch its rhythm.",
+      "file": "/audio/chapter-1.mp3",
+      "duration": 12.792,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 5.604,
+          "text": "A sweep of the rotor winds the mainspring, storing the energy of your movement."
+        },
+        {
+          "start": 5.554,
+          "end": 8.551,
+          "text": "That energy travels through the gears."
+        },
+        {
+          "start": 8.551,
+          "end": 12.727,
+          "text": "The balance and its blue hairspring give the watch its rhythm."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The celestial calendar",
+      "text": "Meet Saros. Inspired by the sky, its orbiting gears remember the changing months. Thirty days, or thirty-one: the calendar knows the difference. Only February asks for your help, with a correction on the first of March.",
+      "file": "/audio/chapter-2.mp3",
+      "duration": 17.424,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 1.851,
+          "text": "Meet Saros."
+        },
+        {
+          "start": 1.801,
+          "end": 7.102,
+          "text": "Inspired by the sky, its orbiting gears remember the changing months."
+        },
+        {
+          "start": 7.102,
+          "end": 11.974,
+          "text": "Thirty days, or thirty-one: the calendar knows the difference."
+        },
+        {
+          "start": 11.974,
+          "end": 17.358,
+          "text": "Only February asks for your help, with a correction on the first of March."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Two worlds, one journey",
+      "text": "Every traveller carries two worlds. The central hands follow local time. The twenty-four-hour disc keeps a reference time, perhaps the place you call home. Change the local hour... and home stays with you.",
+      "file": "/audio/chapter-3.mp3",
+      "duration": 15.48,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 3.076,
+          "text": "Every traveller carries two worlds."
+        },
+        {
+          "start": 3.026,
+          "end": 6.108,
+          "text": "The central hands follow local time."
+        },
+        {
+          "start": 6.108,
+          "end": 11.719,
+          "text": "The twenty-four-hour disc keeps a reference time, perhaps the place you call home."
+        },
+        {
+          "start": 11.719,
+          "end": 15.449,
+          "text": "Change the local hour... and home stays with you."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The secret of the ring",
+      "text": "Now, turn the bezel. Calendar. Local time. Reference time. Each position selects a different function. The crown makes the adjustment. A simple gesture opens a remarkably intricate mechanical world.",
+      "file": "/audio/chapter-4.mp3",
+      "duration": 17.688,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 2.351,
+          "text": "Now, turn the bezel."
+        },
+        {
+          "start": 2.301,
+          "end": 3.59,
+          "text": "Calendar."
+        },
+        {
+          "start": 3.59,
+          "end": 5.071,
+          "text": "Local time."
+        },
+        {
+          "start": 5.071,
+          "end": 6.747,
+          "text": "Reference time."
+        },
+        {
+          "start": 6.747,
+          "end": 10.014,
+          "text": "Each position selects a different function."
+        },
+        {
+          "start": 10.014,
+          "end": 12.528,
+          "text": "The crown makes the adjustment."
+        },
+        {
+          "start": 12.528,
+          "end": 17.614,
+          "text": "A simple gesture opens a remarkably intricate mechanical world."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "A universe, assembled",
+      "text": "And now, everything finds its place. Wheels, bridges, hands, and light. A universe of tiny decisions becomes one extraordinary watch. The Sky-Dweller. Ready for wherever your story takes you next.",
+      "file": "/audio/chapter-5.mp3",
+      "duration": 17.28,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 3.274,
+          "text": "And now, everything finds its place."
+        },
+        {
+          "start": 3.224,
+          "end": 7.116,
+          "text": "Wheels, bridges, hands, and light."
+        },
+        {
+          "start": 7.116,
+          "end": 12.06,
+          "text": "A universe of tiny decisions becomes one extraordinary watch."
+        },
+        {
+          "start": 12.06,
+          "end": 13.679,
+          "text": "The Sky-Dweller."
+        },
+        {
+          "start": 13.679,
+          "end": 17.23,
+          "text": "Ready for wherever your story takes you next."
+        }
+      ]
+    }
+  ],
+  "auditions": [
+    {
+      "id": "sonia",
+      "voice": "en-GB-SoniaNeural",
+      "label": "Velvet British",
+      "file": "/audio/audition-sonia.mp3",
+      "duration": 6.984
+    },
+    {
+      "id": "jenny",
+      "voice": "en-US-JennyNeural",
+      "label": "Warm American",
+      "file": "/audio/audition-jenny.mp3",
+      "duration": 7.752,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 2.053,
+          "text": "Come closer."
+        },
+        {
+          "start": 2.003,
+          "end": 4.929,
+          "text": "A little universe is waking up."
+        },
+        {
+          "start": 4.929,
+          "end": 7.699,
+          "text": "Let me show you its secrets."
+        }
+      ]
+    },
+    {
+      "id": "aria",
+      "voice": "en-US-AriaNeural",
+      "label": "Intimate American",
+      "file": "/audio/audition-aria.mp3",
+      "duration": 8.184,
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 2.153,
+          "text": "Come closer."
+        },
+        {
+          "start": 2.103,
+          "end": 5.176,
+          "text": "A little universe is waking up."
+        },
+        {
+          "start": 5.176,
+          "end": 8.118,
+          "text": "Let me show you its secrets."
+        }
+      ]
+    }
+  ]
+}

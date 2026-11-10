@@ -18,7 +18,7 @@ import {
   Headphones,
 } from "lucide-react";
 import WatchScene, { type SceneState } from "./watch-scene";
-import narration from "../public/audio/narration.json";
+import narration from "./narration.json";
 const chapters = [
   {
     short: "The awakening",
@@ -140,13 +140,11 @@ export default function Experience() {
   const onReady = useCallback(() => setReady(true), []),
     onError = useCallback(() => setSceneError(true), []);
   useEffect(() => {
-    document
-      .querySelectorAll(".chapter-nav button")
-      [chapter]?.scrollIntoView({
-        block: "nearest",
-        inline: "center",
-        behavior: reducedMotion ? "instant" : "smooth",
-      });
+    document.querySelectorAll(".chapter-nav button")[chapter]?.scrollIntoView({
+      block: "nearest",
+      inline: "center",
+      behavior: reducedMotion ? "instant" : "smooth",
+    });
   }, [chapter, reducedMotion]);
   useEffect(() => {
     const q = matchMedia("(prefers-reduced-motion: reduce)");
@@ -158,7 +156,7 @@ export default function Experience() {
   useEffect(() => {
     if (audio.current) audio.current.muted = muted;
     const a = ambient.current;
-    if (a)
+    if (a && a.context.state !== "closed")
       a.gain.gain.setTargetAtTime(
         playing && music && !muted ? 0.032 : 0,
         a.context.currentTime,
@@ -191,14 +189,18 @@ export default function Experience() {
   useEffect(
     () => () => {
       audio.current?.pause();
-      void ambient.current?.context.close();
+      const current = ambient.current;
+      ambient.current = null;
+      if (current && current.context.state !== "closed")
+        void current.context.close().catch(() => {});
       if (timer.current) clearTimeout(timer.current);
     },
     [],
   );
   function beginAmbient() {
+    if (ambient.current?.context.state === "closed") ambient.current = null;
     if (ambient.current) {
-      void ambient.current.context.resume();
+      void ambient.current.context.resume().catch(() => {});
       return;
     }
     try {

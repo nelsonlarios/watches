@@ -126,6 +126,7 @@ async def main():
         "auditions": auditions,
     }
     (OUT / "narration.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    (OUT.parent.parent / "app" / "narration.json").write_text(json.dumps(manifest, indent=2) + "\n")
     (OUT / "transcript.txt").write_text(
         "SKY-DWELLER — THE TRAVELLER'S LITTLE UNIVERSE\nAI-generated narration\n\n"
         + "\n\n".join(f"{i + 1}. {title}\n{text}" for i, (title, text) in enumerate(CHAPTERS))
